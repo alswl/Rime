@@ -1,0 +1,16 @@
+## Vim ##
+*.s[a-w][a-z]
+*.un~
+Session.vim
+.netrwhist
+*~
+
+
+## Project ##
+
+*.custom.yaml
+*.userdb
+*.bin
+luna_pinyin.custom.*.dict.yaml
+luna_pinyin.custom.*.*.dict.yaml
+custom_phrase.txt
