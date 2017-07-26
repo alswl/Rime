@@ -25,7 +25,7 @@ Feature:
     *   `luna_pinyin.custom.dict.yaml`：自定义单词
     *   `luna_pinyin.emoji.dict.yaml`：Rime 自带 emoji
     *   `luna_pinyin.emoji.apple.dict.yaml`：Apple iOS 10 自带 Emoji
-    *   `luna_pinyin.emoji.aixtuz.dict.yaml`：Aixtuz 维护 Emoji（包含 Unicode 9.0）
+    *   `luna_pinyin.emoji.scomper.dict.yaml`：Scomper 维护 Emoji（包含 Unicode 9.0）
     *   `luna_pinyin.hanyu.dict.yaml`：汉语大词典
     *   `luna_pinyin.jisuanjicihuidaquan.dict.yaml`：计算机词汇大全
     *   `luna_pinyin.poetry.dict.yaml`：古诗词
