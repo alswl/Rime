@@ -1,6 +1,7 @@
 patch:
-  app_options/org.vim.MacVim:
-    no_inline: true
+  app_options:
+    org.vim.MacVim:
+      no_inline: true
   style:
     #color_scheme: native
     color_scheme: apathy
