@@ -1,0 +1,96 @@
+patch:
+  schema/name: 双拼
+  schema/dependencies:
+    - emoji
+  reverse_lookup:
+    dictionary: emoji
+    enable_completion: false
+    prefix: "`"
+    #tips: 
+  engine/filters:
+    - simplifier
+    - uniquifier
+      #- cjk_minifier  # http://placeless.net/2016/08/29/uncommon-chinese-character-in-rime.html#article
+    - charset_filter@gbk  # http://placeless.net/2016/08/29/uncommon-chinese-character-in-rime.html#article
+  engine/translators:
+    - punct_translator
+    - table_translator@custom_phrase
+    - script_translator
+  #translator/enable_charset_filter: true
+  speller/algebra:
+    - "erase/^xx$/"
+    - "derive/^([jqxy])u$/$1v/"
+    - "derive/^([aoe])([ioun])$/$1$1$2/"
+    - derive/([ei])n$/$1ng/            # en => eng, in => ing
+    - derive/([ei])ng$/$1n/            # eng => en, ing => in
+    - "xform/^([aoe])(ng)?$/$1$1$2/"
+    - "xform/iu$/Q/"
+    - "xform/[iu]a$/W/"
+    - "xform/[uv]an$/R/"
+    - "xform/[uv]e$/T/"
+    - "xform/ing$|uai$/Y/"
+    - "xform/^sh/U/"
+    - "xform/^ch/I/"
+    - "xform/^zh/V/"
+    - "xform/uo$/O/"
+    - "xform/[uv]n$/P/"
+    - "xform/i?ong$/S/"
+    - "xform/[iu]ang$/D/"
+    - "xform/(.)en$/$1F/"
+    - "xform/(.)eng$/$1G/"
+    - "xform/(.)ang$/$1H/"
+    - "xform/ian$/M/"
+    - "xform/(.)an$/$1J/"
+    - "xform/iao$/C/"
+    - "xform/(.)ao$/$1K/"
+    - "xform/(.)ai$/$1L/"
+    - "xform/(.)ei$/$1Z/"
+    - "xform/ie$/X/"
+    - "xform/ui$/V/"
+    - "xform/(.)ou$/$1B/"
+    - "xform/in$/N/"
+    - "xlit/QWRTYUIOPSDFGHMJCKLZXVBN/qwrtyuiopsdfghmjcklzxvbn/"
+  punctuator/half_shape:
+      "/" : "/"
+      "\\" : "、"
+      "[": "「"
+      "]": "」"
+      "|": "|"
+      "<": "《"
+      ">": "》"
+      "$": "￥"
+      "%": "%"
+      "*": "*"
+      "~": "~"
+      "_": "_"
+      "{": "『"
+      "}": "』"
+  #punctuator/import_preset: symbols
+  translator/dictionary: luna_pinyin.custom
+  simplifier/option_name: zh_simp
+  custom_phrase:
+    db_class: stabledb
+    dictionary: ""
+    enable_completion: false
+    enable_sentence: false
+    initial_quality: 1
+    user_dict: custom_phrase
+  switches:
+    - name: ascii_mode
+      reset: 0
+      states: ["中文", "西文"]
+    - name: full_shape
+      states: ["半角", "全角"]
+    - name: zh_simp
+      reset: 1
+      states: ["漢字", "汉字"]
+    - name: ascii_punct
+      states: ["。，", "．，"]
+    - options: [gbk, utf8]
+      reset: 1
+      states:
+        - GBK
+        - UTF-8
+  key_binder/bindings:
+    - { when: always, accept: Control+Shift+4, toggle: zh_simp }
+    - { when: always, accept: Control+Shift+5, toggle: gbk }

@@ -8,9 +8,9 @@ Session.vim
 
 ## Project ##
 
-*.custom.yaml
 *.userdb
 *.bin
 luna_pinyin.custom.*.dict.yaml
 luna_pinyin.custom.*.*.dict.yaml
 custom_phrase.txt
+squirrel.yaml

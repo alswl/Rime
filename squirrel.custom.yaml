@@ -1,0 +1,47 @@
+patch:
+  app_options/org.vim.MacVim:
+    ascii_mode: true
+    no_inline: true
+  style:
+    #color_scheme: native
+    color_scheme: apathy
+    #color_scheme: homepage
+    #color_scheme: starcraft
+  preset_color_schemes:
+    apathy: 
+      name: "冷漠 / Apathy"
+      author: "LIANG Hai "
+      horizontal: true
+      inline_preedit: true
+      candidate_format: "%c\u2005%@\u2005"
+      corner_radius: 4
+      border_height: 1
+      border_width: 1
+      back_color: 0xFFFFFF
+      #font_face: "PingFangSC-Regular,HanaMinA"  # HanaMinA makes emoji display bad
+      font_face: "PingFangSC-Regular,PingFangTC-Regular"
+      font_point: 15
+      text_color: 0x424242
+      label_font_face: "PingFangSC-Light,HanaMinA"
+      label_font_point: 12
+      hilited_candidate_text_color: 0xEE6E00
+      hilited_candidate_back_color: 0xFFF0E4
+      comment_text_color: 0x999999
+    homepage: 
+      name: "官网 / Homepage"
+      author: "alswl"
+      horizontal: true
+      inline_preedit: true
+      candidate_format: "%c\u2005%@\u2005"
+      corner_radius: 5
+      border_height: 0
+      border_width: 0
+      back_color: 0x444444
+      font_face: "PingFangSC-Medium,PingFangTC-Medium"
+      font_point: 16
+      text_color: 0xEEEEEE
+      font_face: "PingFangSC-Light,PingFangTC-Light"
+      label_font_point: 14
+      hilited_candidate_text_color: 0xFFFFFF
+      hilited_candidate_back_color: 0xD3BC00
+      comment_text_color: 0x999999
