@@ -1,6 +1,5 @@
 patch:
   app_options/org.vim.MacVim:
-    ascii_mode: true
     no_inline: true
   style:
     #color_scheme: native
