@@ -14,3 +14,7 @@ luna_pinyin.custom.*.dict.yaml
 luna_pinyin.custom.*.*.dict.yaml
 custom_phrase.txt
 squirrel.yaml
+default.yaml
+symbols.yaml
+installation.yaml
+rm 'user.yaml'
