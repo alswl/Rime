@@ -18,3 +18,4 @@ default.yaml
 symbols.yaml
 installation.yaml
 rm 'user.yaml'
+user.yaml
