@@ -34,6 +34,8 @@ Feature:
 *   Generated fiels
     *   `default.yaml`
     *   `squirrel.yaml`
-
-
+    *   `symbols.yaml`
+    *   `installation.yaml`
+    *   `user.yaml`
+    
 Author: @alswl .

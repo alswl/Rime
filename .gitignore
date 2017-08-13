@@ -13,9 +13,11 @@ Session.vim
 luna_pinyin.custom.*.dict.yaml
 luna_pinyin.custom.*.*.dict.yaml
 custom_phrase.txt
+
+### generated files
+
 squirrel.yaml
 default.yaml
 symbols.yaml
 installation.yaml
-rm 'user.yaml'
 user.yaml
