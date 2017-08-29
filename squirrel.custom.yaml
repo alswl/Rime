@@ -2,6 +2,8 @@ patch:
   app_options:
     org.vim.MacVim:
       no_inline: true
+    com.qvacua.VimR:
+      no_inline: true
   style:
     #color_scheme: native
     color_scheme: apathy
