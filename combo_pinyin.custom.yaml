@@ -14,4 +14,5 @@ patch:
       "_": "_"
       "{": "『"
       "}": "』"
+  translator/dictionary: luna_pinyin.custom
 

@@ -62,7 +62,7 @@ chord_composer:
     - "erase/^([A-Za-z]+)$/"
   prompt_format:
     - "xform/^(.*)$/[$1]/"
-customization: 2243465278
+customization: 3007965376
 editor:
   bindings:
     BackSpace: back_syllable
@@ -119,7 +119,7 @@ schema:
     
   name: "宮保拼音"
   schema_id: combo_pinyin
-  version: 0.9.1.custom.2243465278
+  version: 0.9.1.custom.3007965376
 speller:
   algebra:
     - "erase/^xx$/"
@@ -136,7 +136,7 @@ switches:
   - name: ascii_punct
     states: ["。，", "．，"]
 translator:
-  dictionary: luna_pinyin
+  dictionary: luna_pinyin.custom
   preedit_format:
     - "xform/([nl])v/$1ü/"
     - "xform/([nl])ue/$1üe/"

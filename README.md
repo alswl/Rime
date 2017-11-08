@@ -37,5 +37,5 @@ Feature:
     *   `symbols.yaml`
     *   `installation.yaml`
     *   `user.yaml`
-    
+
 Author: @alswl .

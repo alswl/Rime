@@ -6,6 +6,8 @@ patch:
       no_inline: true
     com.googlecode.iterm2:
       no_inline: true
+    #com.apple.iWork.Numbers:
+      #no_inline: true
   style:
     #color_scheme: native
     color_scheme: apathy
