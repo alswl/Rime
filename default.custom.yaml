@@ -4,7 +4,7 @@ patch:
   schema_list:
     #- schema: luna_pinyin_simp
     - schema: double_pinyin
-    #- schema: combo_pinyin
+      #- schema: combo_pinyin
     #- schema: emoji
   ascii_composer:
     good_old_caps_lock: true

@@ -5,7 +5,7 @@ custom_phrase:
   enable_sentence: false
   initial_quality: 1
   user_dict: custom_phrase
-customization: 1621780387
+customization: 3093254838
 engine:
   filters:
     - simplifier
@@ -70,7 +70,7 @@ schema:
     
   name: "双拼"
   schema_id: double_pinyin
-  version: 0.15.custom.1621780387
+  version: 0.15.custom.3093254838
 simplifier:
   option_name: zh_simp
 speller:
@@ -78,6 +78,8 @@ speller:
     - "erase/^xx$/"
     - "derive/^([jqxy])u$/$1v/"
     - "derive/^([aoe])([ioun])$/$1$1$2/"
+    - "derive/([ei])n$/$1ng/"
+    - "derive/([ei])ng$/$1n/"
     - "xform/^([aoe])(ng)?$/$1$1$2/"
     - "xform/iu$/Q/"
     - "xform/[iu]a$/W/"

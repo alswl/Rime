@@ -21,8 +21,8 @@ patch:
     - "erase/^xx$/"
     - "derive/^([jqxy])u$/$1v/"
     - "derive/^([aoe])([ioun])$/$1$1$2/"
-      #- derive/([ei])n$/$1ng/            # en => eng, in => ing
-      #- derive/([ei])ng$/$1n/            # eng => en, ing => in
+    - derive/([ei])n$/$1ng/            # en => eng, in => ing
+    - derive/([ei])ng$/$1n/            # eng => en, ing => in
     - "xform/^([aoe])(ng)?$/$1$1$2/"
     - "xform/iu$/Q/"
     - "xform/[iu]a$/W/"
