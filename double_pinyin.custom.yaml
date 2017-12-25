@@ -10,8 +10,9 @@ patch:
   engine/filters:
     - simplifier
     - uniquifier
-      #- cjk_minifier  # http://placeless.net/2016/08/29/uncommon-chinese-character-in-rime.html#article
     - charset_filter@gbk  # http://placeless.net/2016/08/29/uncommon-chinese-character-in-rime.html#article
+      #- cjk_minifier  # http://placeless.net/2016/08/29/uncommon-chinese-character-in-rime.html#article
+    - uniquifier # double uniquifier for duplication, test "deng lu"
   engine/translators:
     - punct_translator
     - table_translator@custom_phrase

@@ -2,6 +2,8 @@ patch:
   app_options:
     org.vim.MacVim:
       no_inline: true
+    uk.foon.Neovim:
+      no_inline: true
     com.qvacua.VimR:
       no_inline: true
     com.googlecode.iterm2:

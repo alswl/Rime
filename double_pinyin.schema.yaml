@@ -5,12 +5,13 @@ custom_phrase:
   enable_sentence: false
   initial_quality: 1
   user_dict: custom_phrase
-customization: 3093254838
+customization: 1464488279
 engine:
   filters:
     - simplifier
-    - "uniquifier #- cjk_minifier"
+    - uniquifier
     - "charset_filter@gbk"
+    - uniquifier
   processors:
     - ascii_composer
     - recognizer
@@ -70,7 +71,7 @@ schema:
     
   name: "双拼"
   schema_id: double_pinyin
-  version: 0.15.custom.3093254838
+  version: 0.15.custom.1464488279
 simplifier:
   option_name: zh_simp
 speller:
