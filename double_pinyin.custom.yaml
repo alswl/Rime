@@ -52,18 +52,15 @@ patch:
     - "xform/in$/N/"
     - "xlit/QWRTYUIOPSDFGHMJCKLZXVBN/qwrtyuiopsdfghmjcklzxvbn/"
   punctuator/half_shape:
-      "/" : "/"
       "\\" : "、"
       "[": "「"
       "]": "」"
-      "|": "|"
       "<": "《"
       ">": "》"
       "$": "￥"
       "%": "%"
       "*": "*"
       "~": "~"
-      "_": "_"
       "{": "『"
       "}": "』"
   #punctuator/import_preset: symbols

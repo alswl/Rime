@@ -21,3 +21,7 @@ default.yaml
 symbols.yaml
 installation.yaml
 user.yaml
+.place_holder
+build
+sync
+trash
