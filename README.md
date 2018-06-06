@@ -5,7 +5,11 @@ My Rime configuration.
 
 ## Snapshot
 
+Linux Snapshot:
+
 ![Linux Snapshot](https://raw.githubusercontent.com/alswl/Rime/master/snapshots/linux-rime.png)
+
+macOS Snapshot:
 
 ![Mac Snapshot](https://raw.githubusercontent.com/alswl/Rime/master/snapshots/mac-rime.png)
 
