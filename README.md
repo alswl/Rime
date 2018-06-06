@@ -7,7 +7,7 @@ My Rime configuration.
 
 ![Linux Snapshot](https://raw.githubusercontent.com/alswl/Rime/master/snapshots/linux-rime.png)
 
-![Mac Snapshot](https://raw.githubusercontent.com/alswl/Rime/master/snapshots/linux-rime.png)
+![Mac Snapshot](https://raw.githubusercontent.com/alswl/Rime/master/snapshots/mac-rime.png)
 
 
 ## Feature
