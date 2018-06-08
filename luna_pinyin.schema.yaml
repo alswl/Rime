@@ -28,7 +28,6 @@ engine:
   translators:
     - punct_translator
     - "table_translator@custom_phrase"
-    - reverse_lookup_translator
     - script_translator
 key_binder:
   import_preset: default
@@ -52,7 +51,7 @@ punctuator:
 recognizer:
   import_preset: default
   patterns:
-    punct: "^/([0-9]+[a-z]*|[a-z]+)$"
+    punct: "^/([0-9]0?|[A-Za-z]+)$"
     reverse_lookup: "`[a-z]*'?$"
 reverse_lookup:
   comment_format:
@@ -67,8 +66,6 @@ reverse_lookup:
 schema:
   author:
     - "佛振 <chen.sst@gmail.com>"
-  dependencies:
-    - stroke
   description: |
     Rime 預設的拼音輸入方案。
     參考以下作品而創作：
@@ -79,7 +76,7 @@ schema:
     
   name: "朙月拼音"
   schema_id: luna_pinyin
-  version: 0.22.custom.310800241
+  version: 0.24.minimal.custom.310800241
 speller:
   algebra:
     - "erase/^xx$/"
