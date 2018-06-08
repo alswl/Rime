@@ -2,14 +2,61 @@
 # encoding: utf-8
 
 schema:
-  schema_id: combo_pinyin
-  name: 宮保拼音
-  version: "0.9.1"
+  schema_id: combo_pinyin_kbcon
+  name: 宮保拼音·鍵盤控式
+  version: "1.4"
   author:
     - 佛振 <chen.sst@gmail.com>
   description: |
-    並擊輸入拼音
-    https://github.com/rime/home/wiki/ComboPinyin
+    並擊輸入拼音，適用「鍵盤控」佈局。
+    https://github.com/rime/home/wiki/ComboPinyinKBCon
+
+    佈局：
+
+        Ln  Dt          u   I   O
+    S   Cr  Z*  Gk      i*  N   E
+        Fm  Bp      er  yu  U   E'
+                H*  A*
+
+    標「*」的按鍵爲拇指、食指的基準鍵位
+    E' 是 E 的活用鍵位，只用於組合韻母
+
+    組合鍵：
+
+    # 組合聲母
+    BH = p, BF = m, DH = t, DL = n, GH = k,
+    ZH = zh, CH = ch, SH = sh, ZC = r
+
+    # 組合韻母及活用（同「大衆式」），括弧內爲活用組合
+    AI = ai, EI (OI) = ei, AU = ao, U (E'U) = ou,
+    uI = uei, uAI = uai, iU (yuU) = iou, iAU (yuAU) = iao,
+    N = en, NE = eng, AN = an, ANE = ang,
+    iN = in, uN = uen, yuN = yun,
+    iNE = ing, uNE (uIO) = ong, yuNE (yuUE') = iong,
+    uANE (uAIO) = uang
+
+    適用鍵盤型號及固件：
+
+    - AMJ40:   http://github.com/lotem/AMJ40/tree/kbcon
+    - Ergodox: http://github.com/lotem/ergodox-firmware/tree/kbcon
+
+    「鍵盤控」兼容佈局（適用標準 PC 鍵盤）：
+       (C') Ln  Dt (T')     u   I   O
+    H'  S   Cr  Z*  Gk      i*  N   E
+       (Z') Fm  Bp (P') er  yu  U   E'
+                    A*
+
+    標「*」的按鍵爲拇指、食指的基準鍵位
+    加 () 的冗餘按鍵，是爲方便用家從「大衆式」過渡到本式而增設
+
+    組合鍵增補：
+
+    # PC 鍵盤組合聲母及活用
+    BH' (BZ') = p, BF = m, DH' (DC') = t, DL = n, GH' (GC) = k,
+    ZH' (ZS) = zh, CH' = ch, SH' = sh, ZC = r
+
+    # 兼容「大衆式」聲母
+    P' = p, T' = t, FZ' = zh, LC' = ch, CS = sh
 
 switches:
   - name: ascii_mode
@@ -59,29 +106,54 @@ speller:
 chord_composer:
   # 字母表，包含用於並擊的按鍵
   # 擊鍵雖有先後，形成並擊時，一律以字母表順序排列
-  alphabet: "swxdecfrvgtbnjum ki,lo."
+  alphabet: 'gtbfrvdecswxa;hynjum ki,/lo.'
   # 拼寫運算規則，將一組並擊編碼轉換爲拼音音節
   algebra:
     # 先將物理按鍵字符對應到宮保拼音鍵位中的拼音字母
-    - 'xlit|swxdecfrvgtbnjum ki,lo.|sczhlfgdbktpRiuVaNIUeoE|'
+    - 'xlit|gtbfrvdecswxa;hynjum ki,/lo.|gtpzdbclfsczHhXYRiuVaNIUWeoE|'
     # 以下根據宮保拼音的鍵位分別變換聲母、韻母部分
+    # 鍵盤控專用拇指位 h 聲母鍵單擊時發送標點符號（鑑於分號較音節 he 少用，現改用 Shift+; 輸入）
+    #- 'xform/^h$/;/'
+    # 又改爲輸出空格，方便雙手交替上字
+    - 'xform/^h$/ /'
+    # 以下統一表記爲 h
+    - xform/Hh?/h/
     # 組合聲母
-    - xform/^zf/zh/
-    - xform/^cl/ch/
-    - xform/^fb/m/
-    - xform/^ld/n/
-    - xform/^hg/r/
+    - xform/^bh/p/
+    - xform/^dh/t/
+    - xform/^gh/k/
+    #- xform/^fh/v/
+    - xform/^bf/m/
+    - xform/^dl/n/
+    - xform/^zc/r/
+    # PC 鍵盤組合聲母
+    - xform/^b[zcsh]+/p/
+    - xform/^d[zcsh]+/t/
+    - xform/^g[zcsh]+/k/
+    - xform/^[zr][sh]+/zh/
+    - xform/^csh/ch/
+    # 兼容大衆式
+    - xform/^cs/sh/
+    - xform/^lc/ch/
+    - xform/^fz/zh/
+    # 消除多餘的 h
+    - xform/([^zcs])h/\1/
     # g,k,h 接 i/ü 時作 ji/ju, qi/qu, xi/xu
     - xform/^[gz]([iV])/j$1/
     - xform/^[kc]([iV])/q$1/
     - xform/^[hs]([iV])/x$1/
-    # 空格鍵單擊時產生空白
-    - 'xform/^a$/ /'
-    # 特例：以組合鍵[ae]輸入拼音‹a›
-    - xform/ae$/a/
-    # 單擊時產生字符 , .
+    # 單擊時發送標點符號
     - xform/^U$/,/
     - xform/^E$/./
+    - xform|^W$|/|
+    # 空格鍵單擊時發送空白
+    - 'xform/^a$/ /'
+    - xform/^ae$/a/
+    - xform/^R$/er/
+    # 40% 鍵盤可啓用這二鍵輸入標點符號及翻頁，但會影響回車輸入字母
+    #- xform/^Y$/,/
+    #- xform/^X$/./
+    - xform/[XYR]+//
     # 上排三鍵並擊 ong, uang
     - xform/(ua?)Io$/$1Ne/
     - xform/aI$/ai/
@@ -93,11 +165,12 @@ chord_composer:
     - xform/^hI$/xi/
     - xform/I$/i/
     # 下排三鍵並擊 iong
-    - xform/VUE$/VNe/
+    - xform/V(UE$|U?WE)$/VNe/
+    - xform/Va(UE$|U?WE)$/uaNe/
     # [ü] 活用爲介音 ‹i-› 以利於並擊 iao, iu
-    - xform/V(a?)U$/i$1U/
-    - xform/aU$/ao/
-    - xform/UE?$/ou/
+    - xform/V(a?[UW])$/i$1/
+    - xform/a[UW]E?$/ao/
+    - xform/[UW]E?$|U?W$/ou/
     - xform/([aiuV])Ne$/$1ng/
     # ‹eng› 省略 ‹e›
     - xform/Ne$/eng/
@@ -108,7 +181,6 @@ chord_composer:
     # ‹en› 省略 ‹e›
     - xform/N$/en/
     - xform/^un$/wen/
-    - xform/R$/er/
     # 漢語拼音方案的拼寫規則
     - xform/^i(ng?)$/yi$1/
     - xform/^i$/yi/
@@ -144,11 +216,11 @@ chord_composer:
   # 並擊過程中套用的式樣
   prompt_format:
     # 加方括弧
-    - "xform/^(.*)$/[$1]/"
+    - 'xform/^(.*)$/[$1]/'
 
 translator:
   dictionary: luna_pinyin
-  prism: combo_pinyin
+  prism: combo_pinyin_kbcon
   preedit_format:
     - xform/([nl])v/$1ü/
     - xform/([nl])ue/$1üe/
@@ -156,6 +228,9 @@ translator:
 
 punctuator:
   import_preset: default
+  half_shape: &punct
+    ':': [ '：', '；' ]
+  full_shape: *punct
 
 key_binder:
   import_preset: default

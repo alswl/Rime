@@ -4,14 +4,14 @@
 schema:
   schema_id: luna_quanpin
   name: 全拼
-  version: "0.1.minimal"
+  version: "0.1"
   author:
     - 佛振 <chen.sst@gmail.com>
   description: |
     所謂「全拼」。其實是去除聲調的漢語拼音。
     詞典供形碼用作拼音反查。
   dependencies:
-    #- stroke
+    - stroke
 
 switches:
   - name: ascii_mode
@@ -42,7 +42,7 @@ engine:
     - fallback_segmentor
   translators:
     - punct_translator
-    #- reverse_lookup_translator
+    - reverse_lookup_translator
     - script_translator
   filters:
     - simplifier
