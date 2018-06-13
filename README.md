@@ -73,7 +73,13 @@ macOS Snapshot:
         *   `installation.yaml`
 
 See [rime/plum: 東風破 /plum/: Rime configuration manager and input schema repository](https://github.com/rime/plum)
-to gernerate input methods.
+to gernerate input methods. In short:
+
+```
+cd plum
+./rime-install double-pinyin
+./rime-install combo-pinyin
+```
 
 All `dict.yaml` file can use separately.
 

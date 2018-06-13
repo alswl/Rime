@@ -26,3 +26,4 @@ build
 sync
 trash
 luna_pinyin.custom.dict.yaml
+*.schema.yaml
