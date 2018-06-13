@@ -7,6 +7,7 @@ import_tables:
   - luna_pinyin
   - luna_pinyin.extended
   - luna_pinyin.chengyusuyu
+  - luna_pinyin.hanyu
   - luna_pinyin.sijixingzhenquhuadimingciku
   - luna_pinyin.jisuanjicihuidaquan
   - luna_pinyin.wangluoliuxingxinci
@@ -15,9 +16,5 @@ import_tables:
   - luna_pinyin.emoji.apple
   - luna_pinyin.emoji.scomper
   - luna_pinyin.kaomoji
-  - luna_pinyin.custom.personal
-  - luna_pinyin.custom.cn_en
-  - luna_pinyin.custom.contacts
-  - luna_pinyin.custom.contacts.hujiang
 ...
 
