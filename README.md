@@ -26,14 +26,26 @@ macOS Snapshot:
 *   include 古诗词
 *   include 网络新兴词
 
+
+## Requirements
+
+*   Linux
+    *   librime>=1.3
+    *   opencc>=1.0.2
+*   macOS
+    *   test in 0.9.27
+    *   DO NOT install 0.9.20, it is a old deprecated version. You should build from source.
+
+
 ## Structure
 
 *   User defined files
     *   `default.custom.yaml`：自定义配置
-    *   `squirrel.custom.yaml`: 自定义界面配置
-    *   `luna_pinyin.custom.yaml`：明月拼音配置
-    *   `double_pinyin.custom.yaml`：双拼配置
-    *   `luna_pinyin.custom.dict.yaml`：自定义字典
+    *   `squirrel.custom.yaml`: macOS Squirrel 鼠须管自定义配置
+    *   `luna_pinyin.custom.yaml`：明月拼音自定义配置（模糊音在此）
+    *   `double_pinyin.custom.yaml`：双拼自定义配置
+    *   `luna_pinyin.custom.dict.yaml.sample`：拼音自定义字典（使用 `import_tables`
+        引入其他 dict），使用时重命名为 `luna_pinyin.custom.dict.yaml`
 *   Dictionary
     *   `luna_pinyin.emoji.dict.yaml`：Rime 自带 emoji
     *   `luna_pinyin.emoji.apple.dict.yaml`：Apple iOS 10 自带 Emoji
@@ -44,10 +56,25 @@ macOS Snapshot:
     *   `luna_pinyin.sijixingzhenquhuadimingciku.dict.yaml`: 四级行政区地名词库
     *   `luna_pinyin.wangluoliuxingxinci.dict.yaml`: 网络流行词
 *   Generated fiels
-    *   `default.yaml`
-    *   `squirrel.yaml`
-    *   `symbols.yaml`
-    *   `installation.yaml`
-    *   `user.yaml`
+    *   `build` folder
+        *   `default.yaml`
+        *   `user.yaml`
+        *   `default.yaml`
+        *   `double_pinyin.prism.bin`
+        *   `double_pinyin.schema.yaml`
+        *   `emoji.prism.bin`
+        *   `emoji.reverse.bin`
+        *   `emoji.schema.yaml`
+        *   `emoji.table.bin`
+        *   `luna_pinyin.custom.reverse.bin`
+        *   `luna_pinyin.custom.table.bin`
+    *   Files generatedafter installation:
+        *   `symbols.yaml`
+        *   `installation.yaml`
+
+See [rime/plum: 東風破 /plum/: Rime configuration manager and input schema repository](https://github.com/rime/plum)
+to gernerate input methods.
+
+All `dict.yaml` file can use separately.
 
 Author: @alswl .
