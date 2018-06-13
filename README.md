@@ -56,7 +56,7 @@ macOS Snapshot:
     *   `luna_pinyin.sijixingzhenquhuadimingciku.dict.yaml`: 四级行政区地名词库
     *   `luna_pinyin.wangluoliuxingxinci.dict.yaml`: 网络流行词
 *   Generated fiels
-    *   `build` folder
+    *   `build` folder in Linux, macOS in rime root folder
         *   `default.yaml`
         *   `user.yaml`
         *   `default.yaml`
