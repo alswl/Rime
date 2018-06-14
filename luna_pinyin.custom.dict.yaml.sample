@@ -6,11 +6,12 @@ use_preset_vocabulary: true
 import_tables:
   - luna_pinyin
   - luna_pinyin.extended
-  - luna_pinyin.chengyusuyu
   - luna_pinyin.hanyu
+  - luna_pinyin.chengyusuyu
   - luna_pinyin.sijixingzhenquhuadimingciku
   - luna_pinyin.jisuanjicihuidaquan
   - luna_pinyin.wangluoliuxingxinci
+  - luna_pinyin.shanghaishichengshixinxijingxuan
   - luna_pinyin.poetry
   - luna_pinyin.emoji
   - luna_pinyin.emoji.apple
