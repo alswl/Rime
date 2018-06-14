@@ -47,14 +47,16 @@ macOS Snapshot:
     *   `luna_pinyin.custom.dict.yaml.sample`：拼音自定义字典（使用 `import_tables`
         引入其他 dict），使用时重命名为 `luna_pinyin.custom.dict.yaml`
 *   Dictionary
-    *   `luna_pinyin.emoji.dict.yaml`：Rime 自带 emoji
-    *   `luna_pinyin.emoji.apple.dict.yaml`：Apple iOS 10 自带 Emoji
+    *   `luna_pinyin.hanyu.dict.yaml`：汉语大词典（Rime 自带）
+    *   `luna_pinyin.poetry.dict.yaml`：明月拼音擴充詞庫（詩詞）（Rime 自带）
+    *   `luna_pinyin.emoji.dict.yaml`：Rime 自带 emoji（Rime 自带）
+    *   `luna_pinyin.emoji.apple.dict.yaml`：Apple iOS 10 Emoji
     *   `luna_pinyin.emoji.scomper.dict.yaml`：Scomper 维护 Emoji（包含 Unicode 9.0）
-    *   `luna_pinyin.hanyu.dict.yaml`：汉语大词典
-    *   `luna_pinyin.jisuanjicihuidaquan.dict.yaml`：计算机词汇大全
-    *   `luna_pinyin.poetry.dict.yaml`：古诗词
-    *   `luna_pinyin.sijixingzhenquhuadimingciku.dict.yaml`: 四级行政区地名词库
-    *   `luna_pinyin.wangluoliuxingxinci.dict.yaml`: 网络流行词
+    *   `luna_pinyin.chengyusuyu.dict.yaml` 成语俗语（搜狗）
+    *   `luna_pinyin.jisuanjicihuidaquan.dict.yaml`：计算机词汇大全（搜狗）
+    *   `luna_pinyin.sijixingzhenquhuadimingciku.dict.yaml`: 四级行政区划地名词库（搜狗）
+    *   `luna_pinyin.wangluoliuxingxinci.dict.yaml`: 网络流行新词（搜狗）
+    *   `luna_pinyin.shanghaishichengshixinxijingxuan.dict.yaml` 上海市城市信息精选（搜狗）
 *   Generated fiels
     *   `build` folder in Linux, macOS in rime root folder
         *   `default.yaml`
@@ -82,5 +84,7 @@ cd plum
 ```
 
 All `dict.yaml` file can use separately.
+
+Use [alswl/ascel: Another scel parser](https://github.com/alswl/ascel) to convert Sogou scel files.
 
 Author: @alswl .
