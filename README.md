@@ -45,32 +45,33 @@ macOS Snapshot:
     *   `luna_pinyin.custom.yaml`：明月拼音自定义配置（模糊音在此）
     *   `double_pinyin.custom.yaml`：双拼自定义配置
     *   `luna_pinyin.custom.dict.yaml.sample`：拼音自定义字典（使用 `import_tables`
-        引入其他 dict），使用时重命名为 `luna_pinyin.custom.dict.yaml`
+        引入其他 dict），使用时需要**重命名**为 `luna_pinyin.custom.dict.yaml`
 *   Dictionary
+    *   `luna_pinyin.dict.yaml`：明月拼音（Rime 自带）
+    *   `luna_pinyin.extended.dict.yaml`：明月拼音擴充詞庫（Rime 自带）
     *   `luna_pinyin.hanyu.dict.yaml`：汉语大词典（Rime 自带）
+    *   `luna_pinyin.chengyusuyu.dict.yaml` 成语俗语（搜狗）
+    *   `luna_pinyin.sijixingzhenquhuadimingciku.dict.yaml`: 四级行政区划地名词库（搜狗）
+    *   `luna_pinyin.jisuanjicihuidaquan.dict.yaml`：计算机词汇大全（搜狗）
+    *   `luna_pinyin.wangluoliuxingxinci.dict.yaml`: 网络流行新词（搜狗）
+    *   `luna_pinyin.shanghaishichengshixinxijingxuan.dict.yaml` 上海市城市信息精选（搜狗）
     *   `luna_pinyin.poetry.dict.yaml`：明月拼音擴充詞庫（詩詞）（Rime 自带）
     *   `luna_pinyin.emoji.dict.yaml`：Rime 自带 emoji（Rime 自带）
     *   `luna_pinyin.emoji.apple.dict.yaml`：Apple iOS 10 Emoji
     *   `luna_pinyin.emoji.scomper.dict.yaml`：Scomper 维护 Emoji（包含 Unicode 9.0）
-    *   `luna_pinyin.chengyusuyu.dict.yaml` 成语俗语（搜狗）
-    *   `luna_pinyin.jisuanjicihuidaquan.dict.yaml`：计算机词汇大全（搜狗）
-    *   `luna_pinyin.sijixingzhenquhuadimingciku.dict.yaml`: 四级行政区划地名词库（搜狗）
-    *   `luna_pinyin.wangluoliuxingxinci.dict.yaml`: 网络流行新词（搜狗）
-    *   `luna_pinyin.shanghaishichengshixinxijingxuan.dict.yaml` 上海市城市信息精选（搜狗）
+    *   `luna_pinyin.kaomoji.dict.yaml`：搜狗颜文字
 *   Generated fiels
-    *   `build` folder in Linux, macOS in rime root folder
+    *   `build` folder in Linux, macOS in rime root folder:
         *   `default.yaml`
+        *   `squirrel.yaml`
+        *   `*.prism.bin`
+        *   `*.reverse.bin`
+        *   `*.table.bin`
+        *   `*.custom.reverse.bin`
+    *   `$ROOT` folder:
+        *   `*.schema.yaml`
         *   `user.yaml`
-        *   `default.yaml`
-        *   `double_pinyin.prism.bin`
-        *   `double_pinyin.schema.yaml`
-        *   `emoji.prism.bin`
-        *   `emoji.reverse.bin`
-        *   `emoji.schema.yaml`
-        *   `emoji.table.bin`
-        *   `luna_pinyin.custom.reverse.bin`
-        *   `luna_pinyin.custom.table.bin`
-    *   Files generatedafter installation:
+    *   Files generated after installation:
         *   `symbols.yaml`
         *   `installation.yaml`
 
@@ -78,9 +79,8 @@ See [rime/plum: 東風破 /plum/: Rime configuration manager and input schema re
 to gernerate input methods. In short:
 
 ```
-cd plum
-./rime-install double-pinyin
-./rime-install combo-pinyin
+./plum/rime-install double-pinyin
+./plum/rime-install combo-pinyin
 ```
 
 All `dict.yaml` file can use separately.
