@@ -11,7 +11,13 @@ Linux Snapshot:
 
 macOS Snapshot:
 
-![Mac Snapshot](https://raw.githubusercontent.com/alswl/Rime/master/snapshots/mac-rime.png)
+apathy scheme:
+
+![Mac Snapshot](https://raw.githubusercontent.com/alswl/Rime/master/snapshots/mac-rime-apathy.png)
+
+homepage scheme:
+
+![Mac Snapshot](https://raw.githubusercontent.com/alswl/Rime/master/snapshots/mac-rime-homepage.png)
 
 Emoji Snapshot:
 

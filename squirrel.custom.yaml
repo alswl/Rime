@@ -12,8 +12,8 @@ patch:
       #no_inline: true
   style:
     #color_scheme: native
-    color_scheme: apathy
-    #color_scheme: homepage
+    #color_scheme: apathy
+    color_scheme: homepage
     #color_scheme: starcraft
   preset_color_schemes:
     apathy: 
