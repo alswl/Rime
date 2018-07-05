@@ -13,6 +13,20 @@ macOS Snapshot:
 
 ![Mac Snapshot](https://raw.githubusercontent.com/alswl/Rime/master/snapshots/mac-rime.png)
 
+Emoji Snapshot:
+
+![Emoji Snapshot 1](https://raw.githubusercontent.com/alswl/Rime/master/snapshots/emoji-1.png)
+
+![Emoji Snapshot 2](https://raw.githubusercontent.com/alswl/Rime/master/snapshots/emoji-2.png)
+
+Kaomoji Snapshot:
+
+![Kaomoji Snapshot](https://raw.githubusercontent.com/alswl/Rime/master/snapshots/kaomoji.png)
+
+Poetry Snapshot:
+
+![Poetry Snapshot](https://raw.githubusercontent.com/alswl/Rime/master/snapshots/poetry.png)
+
 
 ## Feature
 
