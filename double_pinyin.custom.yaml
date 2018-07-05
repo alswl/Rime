@@ -47,8 +47,9 @@ patch:
       states: ["漢字", "汉字"]
     - name: ascii_punct
       states: ["。，", "．，"]
-    - options: [gbk, utf8]
+    - options: [utf8, gbk, gb2312]
       reset: 1
       states:
-        - GBK
         - UTF-8
+        - GBK
+        - GB2312
