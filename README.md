@@ -13,11 +13,11 @@ macOS Snapshot:
 
 apathy scheme:
 
-![Mac Snapshot](https://raw.githubusercontent.com/alswl/Rime/master/snapshots/mac-rime-apathy.png)
+![Mac apathy theme Snapshot](https://raw.githubusercontent.com/alswl/Rime/master/snapshots/mac-rime-apathy.png)
 
 homepage scheme:
 
-![Mac Snapshot](https://raw.githubusercontent.com/alswl/Rime/master/snapshots/mac-rime-homepage.png)
+![Mac homepage theme Snapshot](https://raw.githubusercontent.com/alswl/Rime/master/snapshots/mac-rime-homepage.png)
 
 Emoji Snapshot:
 
