@@ -1,5 +1,8 @@
 patch:
   schema/name: 双拼
+  #dependencies: []  # disable stroke
+  #reverse_lookup: {}  # disable stroke
+  recognizer/patterns/reverse_lookup: ""  # disable stroke
   engine/filters:
     - simplifier
     - uniquifier
@@ -26,6 +29,7 @@ patch:
       "_": "_"
       "{": "『"
       "}": "』"
+      "`": "`"
   #punctuator/import_preset: symbols
   translator/dictionary: luna_pinyin.custom
   simplifier/option_name: zh_simp

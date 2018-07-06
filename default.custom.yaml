@@ -5,6 +5,7 @@ patch:
     #- schema: luna_pinyin_simp
     - schema: double_pinyin
     - schema: combo_pinyin
+    - schema: stroke
     #- schema: emoji
   ascii_composer:
     good_old_caps_lock: true
