@@ -45,10 +45,10 @@ patch:
       border_height: 0
       border_width: 0
       back_color: 0x444444
-      font_face: "PingFangSC-Medium,PingFangTC-Medium"
+      #font_face: "PingFangSC-Medium,PingFangTC-Medium"
       font_point: 16
       text_color: 0xEEEEEE
-      font_face: "PingFangSC-Light,PingFangTC-Light"
+      #font_face: "PingFangSC-Light,PingFangTC-Light"
       label_font_point: 14
       hilited_candidate_text_color: 0xFFFFFF
       hilited_candidate_back_color: 0xD3BC00
