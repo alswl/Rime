@@ -4,11 +4,12 @@ version: "2018.10.05"
 sort: by_weight
 use_preset_vocabulary: false
 import_tables:
-    #- luna_pinyin.extended # equsls next 4 dict
+    #- luna_pinyin.extended # include next 4 dict
     - luna_pinyin
     #- luna_pinyin.hanyu
     - luna_pinyin.poetry
     #- luna_pinyin.cn_en
+    - luna_pinyin.xiandaihanyuchangyongcibiao
     - luna_pinyin.chengyusuyu
     - luna_pinyin.sijixingzhenquhuadimingciku
     - luna_pinyin.jisuanjicihuidaquan
@@ -18,10 +19,5 @@ import_tables:
     - luna_pinyin.emoji.apple
     - luna_pinyin.emoji.scomper
     - luna_pinyin.kaomoji
-    - luna_pinyin.custom.cn_en
-    - luna_pinyin.custom.personal
-    - luna_pinyin.custom.contacts
-    - luna_pinyin.custom.contacts.hujiang
-    - luna_pinyin.custom.contacts.alibaba
 ...
 

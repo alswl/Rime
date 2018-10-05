@@ -2,6 +2,9 @@
 
 My Rime configuration.
 
+Especially recommends `luna_pinyin.xiandaihanyuchangyongcibiao.dict.yaml`。
+
+特别推荐使用「现代汉语常用词表」，让你摆脱 Rime 自带词表规模过大查找不便 / 港台词汇过多的问题。
 
 ## Snapshot
 
@@ -62,13 +65,14 @@ Poetry Snapshot:
     *   `luna_pinyin.custom.dict.yaml.sample`：拼音自定义字典（使用 `import_tables`
         引入其他 dict），使用时需要**重命名**为 `luna_pinyin.custom.dict.yaml`
 *   Dictionary
-    *   `luna_pinyin.dict.yaml`：明月拼音（Rime 自带）
-    *   `luna_pinyin.extended.dict.yaml`：明月拼音擴充詞庫（Rime 自带）
-    *   `luna_pinyin.hanyu.dict.yaml`：汉语大词典（Rime 自带）
-    *   `luna_pinyin.chengyusuyu.dict.yaml` 成语俗语（搜狗）
+    *   `luna_pinyin.dict.yaml`：明月拼音（Rime 自带，70k）
+    *   `luna_pinyin.extended.dict.yaml`：明月拼音擴充詞庫（Rime 自带，不推荐使用，130k）
+    *   `luna_pinyin.hanyu.dict.yaml`：汉语大词典（Rime 自带，不推荐使用，220k）
+    *   `luna_pinyin.xiandaihanyuchangyongcibiao.dict.yaml`：教育部发布的现代汉语常用词表（教育部）
+    *   `luna_pinyin.chengyusuyu.dict.yaml` 成语俗语（搜狗，40k）
     *   `luna_pinyin.sijixingzhenquhuadimingciku.dict.yaml`: 四级行政区划地名词库（搜狗）
     *   `luna_pinyin.jisuanjicihuidaquan.dict.yaml`：计算机词汇大全（搜狗）
-    *   `luna_pinyin.wangluoliuxingxinci.dict.yaml`: 网络流行新词（搜狗）
+    *   `luna_pinyin.wangluoliuxingxinci.dict.yaml`: 网络流行新词（搜狗，15k）
     *   `luna_pinyin.shanghaishichengshixinxijingxuan.dict.yaml` 上海市城市信息精选（搜狗）
     *   `luna_pinyin.poetry.dict.yaml`：明月拼音擴充詞庫（詩詞）（Rime 自带）
     *   `luna_pinyin.emoji.dict.yaml`：Rime 自带 emoji（Rime 自带）
