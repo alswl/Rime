@@ -1,21 +1,27 @@
 ---
 name: luna_pinyin.custom
-version: "2016.02.15"
+version: "2018.10.05"
 sort: by_weight
-use_preset_vocabulary: true
+use_preset_vocabulary: false
 import_tables:
-  - luna_pinyin
-  - luna_pinyin.extended
-  - luna_pinyin.hanyu
-  - luna_pinyin.chengyusuyu
-  - luna_pinyin.sijixingzhenquhuadimingciku
-  - luna_pinyin.jisuanjicihuidaquan
-  - luna_pinyin.wangluoliuxingxinci
-  - luna_pinyin.shanghaishichengshixinxijingxuan
-  - luna_pinyin.poetry
-  - luna_pinyin.emoji
-  - luna_pinyin.emoji.apple
-  - luna_pinyin.emoji.scomper
-  - luna_pinyin.kaomoji
+    #- luna_pinyin.extended # equsls next 4 dict
+    - luna_pinyin
+    #- luna_pinyin.hanyu
+    - luna_pinyin.poetry
+    #- luna_pinyin.cn_en
+    - luna_pinyin.chengyusuyu
+    - luna_pinyin.sijixingzhenquhuadimingciku
+    - luna_pinyin.jisuanjicihuidaquan
+    - luna_pinyin.wangluoliuxingxinci
+    - luna_pinyin.shanghaishichengshixinxijingxuan
+    - luna_pinyin.emoji
+    - luna_pinyin.emoji.apple
+    - luna_pinyin.emoji.scomper
+    - luna_pinyin.kaomoji
+    - luna_pinyin.custom.cn_en
+    - luna_pinyin.custom.personal
+    - luna_pinyin.custom.contacts
+    - luna_pinyin.custom.contacts.hujiang
+    - luna_pinyin.custom.contacts.alibaba
 ...
 
