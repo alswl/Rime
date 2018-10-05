@@ -68,7 +68,7 @@ Poetry Snapshot:
     *   `luna_pinyin.dict.yaml`：明月拼音（Rime 自带，70k）
     *   `luna_pinyin.extended.dict.yaml`：明月拼音擴充詞庫（Rime 自带，不推荐使用，130k）
     *   `luna_pinyin.hanyu.dict.yaml`：汉语大词典（Rime 自带，不推荐使用，220k）
-    *   `luna_pinyin.xiandaihanyuchangyongcibiao.dict.yaml`：教育部发布的现代汉语常用词表（教育部）
+    *   `luna_pinyin.xiandaihanyuchangyongcibiao.dict.yaml`：教育部发布的现代汉语常用词表（教育部，强烈推荐，56k）
     *   `luna_pinyin.chengyusuyu.dict.yaml` 成语俗语（搜狗，40k）
     *   `luna_pinyin.sijixingzhenquhuadimingciku.dict.yaml`: 四级行政区划地名词库（搜狗）
     *   `luna_pinyin.jisuanjicihuidaquan.dict.yaml`：计算机词汇大全（搜狗）
@@ -107,3 +107,4 @@ All `dict.yaml` file can use separately.
 Use [alswl/ascel: Another scel parser](https://github.com/alswl/ascel) to convert Sogou scel files.
 
 Author: @alswl .
+
