@@ -6,7 +6,7 @@
 name: luna_pinyin.shanghaishichengshixinxijingxuan
 version: "2013.07.18"
 sort: by_weight
-use_preset_vocabulary: true
+use_preset_vocabulary: false
 ...
 
 阿彪传菜	a biao chuan cai

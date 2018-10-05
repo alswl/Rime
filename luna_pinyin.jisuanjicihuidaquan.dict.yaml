@@ -6,7 +6,7 @@
 name: luna_pinyin.jisuanjicihuidaquan
 version: "2010.01.15"
 sort: by_weight
-use_preset_vocabulary: true
+use_preset_vocabulary: false
 ...
 
 阿姆达尔定律	a mu da er ding lv

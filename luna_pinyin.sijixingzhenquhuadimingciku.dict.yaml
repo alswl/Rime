@@ -6,7 +6,7 @@
 name: luna_pinyin.sijixingzhenquhuadimingciku
 version: "2008.04.17"
 sort: by_weight
-use_preset_vocabulary: true
+use_preset_vocabulary: false
 ...
 
 阿巴嘎旗	a ba ga qi

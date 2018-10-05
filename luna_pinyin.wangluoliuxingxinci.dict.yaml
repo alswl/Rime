@@ -6,7 +6,7 @@
 name: luna_pinyin.wangluoliuxingxinci
 version: "2018.08.22"
 sort: by_weight
-use_preset_vocabulary: true
+use_preset_vocabulary: false
 ...
 
 吖吖云播	a a yun bo

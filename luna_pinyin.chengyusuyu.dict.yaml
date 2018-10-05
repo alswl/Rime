@@ -6,7 +6,7 @@
 name: luna_pinyin.chengyusuyu
 version: "2017.03.30"
 sort: by_weight
-use_preset_vocabulary: true
+use_preset_vocabulary: false
 ...
 
 阿保之功	a bao zhi gong
