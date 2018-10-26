@@ -2,7 +2,7 @@
 name: luna_pinyin.custom
 version: "2018.10.05"
 sort: by_weight
-use_preset_vocabulary: false
+use_preset_vocabulary: true
 import_tables:
     #- luna_pinyin.extended # include next 4 dict
     - luna_pinyin
@@ -15,6 +15,9 @@ import_tables:
     - luna_pinyin.jisuanjicihuidaquan
     - luna_pinyin.wangluoliuxingxinci
     - luna_pinyin.shanghaishichengshixinxijingxuan
+    - luna_pinyin.zhongguolishicihuidaquan
+    - luna_pinyin.shanghaihuadaquan
+    - luna_pinyin.mingxing
     - luna_pinyin.emoji
     - luna_pinyin.emoji.apple
     - luna_pinyin.emoji.scomper
