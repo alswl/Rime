@@ -65,10 +65,11 @@ Poetry Snapshot:
     *   `luna_pinyin.custom.dict.yaml.sample`：拼音自定义字典（使用 `import_tables`
         引入其他 dict），使用时需要**重命名**为 `luna_pinyin.custom.dict.yaml`
 *   Dictionary
+    *   `essay.txt` Rime essay 中词频高于 700 的词汇和单字（推荐，68k）
+    *   `essay.origin.txt` Rime 自带的 essay 八股文
     *   `luna_pinyin.dict.yaml`：明月拼音（Rime 自带，70k）
     *   `luna_pinyin.extended.dict.yaml`：明月拼音擴充詞庫（Rime 自带，不推荐使用，130k）
     *   `luna_pinyin.hanyu.dict.yaml`：汉语大词典（Rime 自带，不推荐使用，220k）
-    *   `luna_pinyin.essay700.dict.yaml`：Rime essay 中词频高于 700 的词汇和单字（推荐，68k）
     *   `luna_pinyin.xiandaihanyuchangyongcibiao.dict.yaml`：教育部发布的现代汉语常用词表（教育部，强烈推荐，51k）
     *   `luna_pinyin.chengyusuyu.dict.yaml` 成语俗语（搜狗，40k）
     *   `luna_pinyin.sijixingzhenquhuadimingciku.dict.yaml`: 四级行政区划地名词库（搜狗）

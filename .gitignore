@@ -29,5 +29,4 @@ luna_pinyin.custom.dict.yaml
 *.schema.yaml
 stroke.dict.yaml
 opencc
-essay.txt
 emoji_suggestion.yaml
