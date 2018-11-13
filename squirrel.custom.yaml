@@ -4,9 +4,13 @@ patch:
       no_inline: true
     uk.foon.Neovim:
       no_inline: true
+    uk.foon.Neovim:
+      no_inline: true
     com.qvacua.VimR:
       no_inline: true
     com.googlecode.iterm2:
+      no_inline: true
+    com.apple.Terminal:
       no_inline: true
     #com.apple.iWork.Numbers:
       #no_inline: true
