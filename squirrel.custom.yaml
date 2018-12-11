@@ -16,29 +16,31 @@ patch:
       #no_inline: true
   style:
     #color_scheme: native
-    #color_scheme: apathy
-    color_scheme: homepage
+    color_scheme: apathy
+    #color_scheme: homepage
     #color_scheme: starcraft
+    #color_scheme: clean_white
   preset_color_schemes:
     apathy: 
-      name: "冷漠 / Apathy"
-      author: "LIANG Hai "
-      horizontal: true
-      inline_preedit: true
-      candidate_format: "%c\u2005%@\u2005"
-      corner_radius: 4
-      border_height: 1
-      border_width: 1
-      back_color: 0xFFFFFF
-      #font_face: "PingFangSC-Regular,HanaMinA"  # HanaMinA makes emoji display bad
+      name: 冷漠／Apathy
+      author: LIANG Hai
+      horizontal: true  # 水平排列
+      inline_preedit: true #单行显示，false双行显示
+      candidate_format: "%c\u2005%@\u2005"  # 编号 %c 和候选词 %@ 前后的空间
+      corner_radius: 5  #候选条圆角
+      border_height: 0
+      border_width: 0
+      back_color: 0xFFFFFF  #候选条背景色
+      # font_face: "PingFangSC-Regular,HanaMinB"  #候选词字体
       font_face: "PingFangSC-Regular,PingFangTC-Regular"
-      font_point: 15
-      text_color: 0x424242
-      label_font_face: "PingFangSC-Light,HanaMinA"
-      label_font_point: 12
-      hilited_candidate_text_color: 0xEE6E00
-      hilited_candidate_back_color: 0xFFF0E4
-      comment_text_color: 0x999999
+      font_point: 16  #候选字词大小
+      text_color: 0x424242  #高亮选中词颜色
+      label_font_face: "STHeitiSC-Light"   #候选词编号字体
+      label_font_point: 12   #候选编号大小
+      hilited_candidate_text_color: 0xEE6E00  #候选文字颜色
+      hilited_candidate_back_color: 0xFFF0E4  #候选文字背景色
+      comment_text_color: 0x999999  #拼音等提示文字颜色
+      border_color: 0xFFFFFF #边框
     homepage: 
       name: "官网 / Homepage"
       author: "alswl"
@@ -57,3 +59,22 @@ patch:
       hilited_candidate_text_color: 0xFFFFFF
       hilited_candidate_back_color: 0xD3BC00
       comment_text_color: 0x999999
+    clean_white:
+      name: 简约白／Clean White
+      author: Chongyu Zhu <lembacon@gmail.com>, based on 搜狗「简约白」
+      horizontal: true
+      candidate_format: '%c %@'
+      corner_radius: 6
+      border_height: 6
+      border_width: 6
+      font_point: 16
+      label_font_point: 12
+      label_color: 0x888888
+      text_color: 0x808080
+      hilited_text_color: 0x000000
+      candidate_text_color: 0x000000
+      comment_text_color: 0x808080
+      back_color: 0xeeeeee
+      hilited_candidate_label_color: 0xa0c98915
+      hilited_candidate_text_color: 0xc98915
+      hilited_candidate_back_color: 0xeeeeee
