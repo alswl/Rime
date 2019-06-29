@@ -5,9 +5,8 @@ patch:
   recognizer/patterns/reverse_lookup: ""  # disable stroke
   engine/filters:
     - simplifier
-    - uniquifier
-    - charset_filter@gbk  # http://placeless.net/2016/08/29/uncommon-chinese-character-in-rime.html#article
-      #- cjk_minifier  # http://placeless.net/2016/08/29/uncommon-chinese-character-in-rime.html#article
+    - charset_filter@gb2312+emoji # https://github.com/rime/librime/pull/293
+    - charset_filter@gbk+emoji  # https://github.com/rime/librime/pull/293
     - uniquifier # double uniquifier for duplication, test "deng lu"
   engine/translators:
     - punct_translator
@@ -51,9 +50,9 @@ patch:
       states: ["漢字", "汉字"]
     - name: ascii_punct
       states: ["。，", "．，"]
-    - options: [utf8, gbk, gb2312]
-      reset: 1
+    - options: [gb2312+emoji, gbk+emoji, utf8]
       states:
-        - UTF-8
-        - GBK
         - GB2312
+        - GBK
+        - UTF-8
+      reset: 0

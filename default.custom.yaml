@@ -4,8 +4,8 @@ patch:
   schema_list:
     #- schema: luna_pinyin_simp
     - schema: double_pinyin
-    - schema: luna_pinyin_fluency
-    - schema: stroke
+      #- schema: luna_pinyin_fluency
+      #- schema: stroke
     #- schema: emoji
   ascii_composer:
     good_old_caps_lock: true
