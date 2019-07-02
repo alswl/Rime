@@ -1,18 +1,10 @@
 patch:
   schema/name: 双拼
-  #dependencies: []  # disable stroke
-  #reverse_lookup: {}  # disable stroke
-  recognizer/patterns/reverse_lookup: ""  # disable stroke
   engine/filters:
     - simplifier
-    - charset_filter@gb2312+emoji # https://github.com/rime/librime/pull/293
+    - charset_filter@gb2312+emoji  # https://github.com/rime/librime/pull/293
     - charset_filter@gbk+emoji  # https://github.com/rime/librime/pull/293
     - uniquifier # double uniquifier for duplication, test "deng lu"
-  engine/translators:
-    - punct_translator
-    - table_translator@custom_phrase
-    - reverse_lookup_translator
-    - script_translator
   punctuator/half_shape:
       "/" : "/"
       "\\" : "、"
@@ -29,28 +21,9 @@ patch:
       "{": "『"
       "}": "』"
       "`": "`"
-  #punctuator/import_preset: symbols
   translator/dictionary: luna_pinyin.custom
-  simplifier/option_name: zh_simp
-  custom_phrase:
-    db_class: stabledb
-    dictionary: ""
-    enable_completion: false
-    enable_sentence: false
-    initial_quality: 1
-    user_dict: custom_phrase
-  switches:
-    - name: ascii_mode
-      reset: 0
-      states: ["中文"]
-    - name: full_shape
-      states: ["半角", "全角"]
-    - name: zh_simp
-      reset: 1
-      states: ["漢字", "汉字"]
-    - name: ascii_punct
-      states: ["。，", "．，"]
-    - options: [gb2312+emoji, gbk+emoji, utf8]
+  switches/+:
+    - options: [gb2312+emoji, gbk+emoji, utf8]  # https://github.com/rime/librime/pull/293
       states:
         - GB2312
         - GBK

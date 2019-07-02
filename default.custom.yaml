@@ -2,20 +2,19 @@
 
 patch:
   schema_list:
-    #- schema: luna_pinyin_simp
+    - schema: luna_pinyin
     - schema: double_pinyin
-    #- schema: luna_pinyin_fluency
-    #- schema: stroke
-    #- schema: emoji
+    - schema: luna_pinyin_fluency
+    - schema: combo_pinyin
   ascii_composer:
     good_old_caps_lock: true
     switch_key:
       Caps_Lock: noop
       Control_L: noop
-      Control_R: noop
+      Control_R: noop # ignore on macOS
       Eisu_toggle: noop
       Shift_L: commit_code
-      Shift_R: commit_code
+      Shift_R: noop # ignore on macOS
   recognizer/patterns:
     email: "^[A-Za-z][-_.0-9A-Za-z]*@.*$"
     uppercase: "[A-Z][-_+.'0-9A-Za-z]*$"

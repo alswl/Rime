@@ -4,8 +4,6 @@ patch:
       no_inline: true
     uk.foon.Neovim:
       no_inline: true
-    uk.foon.Neovim:
-      no_inline: true
     com.qvacua.VimR:
       no_inline: true
     com.googlecode.iterm2:
@@ -15,12 +13,12 @@ patch:
     #com.apple.iWork.Numbers:
       #no_inline: true
   style:
-    #color_scheme: native
+    #color_scheme: homepage
     #color_scheme: apathy
-    color_scheme: homepage
-    #color_scheme: starcraft
+    color_scheme: mojave_dark
     #color_scheme: clean_white
-    #color_scheme: mojave_dark
+    #color_scheme: native
+    #color_scheme: starcraft
   preset_color_schemes:
     apathy: 
       name: 冷漠／Apathy
