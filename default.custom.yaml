@@ -10,10 +10,10 @@ patch:
     good_old_caps_lock: true
     switch_key:
       Caps_Lock: noop
-      Control_L: noop
+      Control_L: commit_code
       Control_R: noop # ignore on macOS
       Eisu_toggle: noop
-      Shift_L: commit_code
+      Shift_L: noop
       Shift_R: noop # ignore on macOS
   recognizer/patterns:
     email: "^[A-Za-z][-_.0-9A-Za-z]*@.*$"
