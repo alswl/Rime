@@ -5,7 +5,9 @@ patch:
     - simplifier
     - charset_filter@gb2312+emoji  # https://github.com/rime/librime/pull/293
     - charset_filter@gbk+emoji  # https://github.com/rime/librime/pull/293
-    - uniquifier # double uniquifier for duplication, test "deng lu"
+    - uniquifier
+  engine/translators/+:
+    - table_translator@custom_phrase
   punctuator/half_shape:
       "/" : "/"
       "\\" : "、"
@@ -30,3 +32,10 @@ patch:
         - GBK
         - UTF-8
       reset: 0
+  custom_phrase:
+    db_class: stabledb
+    dictionary: ""
+    enable_completion: false
+    enable_sentence: false
+    initial_quality: 1
+    user_dict: custom_phrase
