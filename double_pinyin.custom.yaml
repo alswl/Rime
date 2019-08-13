@@ -2,10 +2,10 @@ patch:
   schema/name: 双拼
   recognizer/patterns/reverse_lookup: ""  # disable stroke
   engine/filters:
-    - charset_filter@gb2312+emoji  # https://github.com/rime/librime/pull/293
-    - charset_filter@gbk+emoji  # https://github.com/rime/librime/pull/293
     - simplifier
     - uniquifier
+    - charset_filter@gb2312+emoji  # https://github.com/rime/librime/pull/293
+    - charset_filter@gbk+emoji  # https://github.com/rime/librime/pull/293
   engine/translators/+:
     - table_translator@custom_phrase
   punctuator/half_shape:
