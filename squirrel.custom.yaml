@@ -12,6 +12,10 @@ patch:
       no_inline: true
     #com.apple.iWork.Numbers:
       #no_inline: true
+    com.alfredapp.Alfred:
+      ascii_mode: true
+    #com.runningwithcrayons.Alfred-2:
+      #ascii_mode: true
   style:
     #color_scheme: homepage
     #color_scheme: apathy
