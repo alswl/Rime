@@ -30,7 +30,7 @@ patch:
         - GB2312E
         - GBKE
         - UTF-8
-      reset: 0
+      reset: 1
   custom_phrase:
     db_class: stabledb
     dictionary: ""

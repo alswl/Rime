@@ -97,9 +97,8 @@ patch:
 
   engine/filters:
     - simplifier
-    - charset_filter@gb2312+emoji  # https://github.com/rime/librime/pull/293
-    - charset_filter@gbk+emoji  # https://github.com/rime/librime/pull/293
     - uniquifier
+    - charset_filter@gb2312+emoji  # https://github.com/rime/librime/pull/293
   engine/translators/+:
     - table_translator@custom_phrase
   punctuator/half_shape:
@@ -122,10 +121,10 @@ patch:
   switches/+:
     - options: [gb2312+emoji, gbk+emoji, utf8]  # https://github.com/rime/librime/pull/293
       states:
-        - GB2312
-        - GBK
+        - GB2312E
+        - GBKE
         - UTF-8
-      reset: 0
+      reset: 1
   custom_phrase:
     db_class: stabledb
     dictionary: ""

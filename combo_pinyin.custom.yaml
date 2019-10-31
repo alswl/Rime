@@ -2,7 +2,6 @@ patch:
   engine/filters:
     - simplifier
     - charset_filter@gb2312+emoji  # https://github.com/rime/librime/pull/293
-    - charset_filter@gbk+emoji  # https://github.com/rime/librime/pull/293
     - uniquifier
   engine/translators/+:
     - table_translator@custom_phrase
