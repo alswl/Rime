@@ -90,6 +90,7 @@ Poetry Snapshot:
     -   `luna_pinyin.poetry.dict.yaml`：明月拼音擴充詞庫（詩詞）（Rime 自带）
     -   `luna_pinyin.emoji.dict.yaml`：Rime 自带 emoji（Rime 自带）
     -   `luna_pinyin.emoji.apple.dict.yaml`：Apple iOS 10 Emoji
+    -   `luna_pinyin.emoji.cldr.dict.yaml`：Emoji parsed from [jolicode/emoji-search: Emoji synonyms to build your own emoji-capable search engine (elasticsearch, solr)](https://github.com/jolicode/emoji-search)
     -   `luna_pinyin.emoji.scomper.dict.yaml`：Scomper 维护 Emoji（包含 Unicode 9.0）
     -   `luna_pinyin.kaomoji.dict.yaml`：搜狗颜文字
 -   Generated fiels

@@ -20,6 +20,7 @@ import_tables:
     - luna_pinyin.mingxing
     - luna_pinyin.emoji
     - luna_pinyin.emoji.apple
+    - luna_pinyin.emoji.cldr
     - luna_pinyin.emoji.scomper
     - luna_pinyin.kaomoji
 ...
