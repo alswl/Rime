@@ -20,7 +20,10 @@
 #                      map(lambda x: x.replace("旗: ", "").strip().lower(),
 #                          alias_matched.split(",")))
 #     for alias in aliases:
-#         print("%s\t%s\t1" % (emoji, " ".join(lazy_pinyin(alias))))
+#         pinyins = lazy_pinyin(alias)
+#         if len(pinyins) == 1 and len(pinyins[0]) == 1:
+#             continue
+#         print("%s\t%s\t1" % (emoji, " ".join(pinyins)))
 # ' | pbcopy
 
 ---
@@ -324,7 +327,6 @@ use_preset_vocabulary: true
 ☹	lian	1
 😮	chi jing	1
 😮	tong qing	1
-😮	a	1
 😮	lian	1
 😯	chi jing	1
 😯	jian mo	1
@@ -344,7 +346,6 @@ use_preset_vocabulary: true
 🥺	lian min	1
 🥺	ken qiu de lian	1
 🥺	qi qiu	1
-😦	a	1
 😦	jing ya	1
 😦	mu deng kou dai	1
 😦	lian	1
@@ -673,7 +674,6 @@ use_preset_vocabulary: true
 🖖	wa ken ju shou li	1
 👌	ok	1
 👌	shou	1
-✌	v	1
 ✌	cheng gong	1
 ✌	shou	1
 ✌	sheng li	1
@@ -4500,15 +4500,12 @@ use_preset_vocabulary: true
 ❇	huo hua	1
 ❇	yan huo	1
 ❇	shan yao	1
-‼	！	1
 ‼	！！	1
 ‼	liang ge	1
 ‼	shuang gan tan hao	1
 ‼	chi jing	1
 ‼	biao dian fu hao	1
-⁉	！	1
 ⁉	！？	1
-⁉	？	1
 ⁉	chi jing	1
 ⁉	gan tan yi wen hao	1
 ⁉	biao dian fu hao	1
@@ -4516,17 +4513,14 @@ use_preset_vocabulary: true
 ❓	wei shen me	1
 ❓	biao dian fu hao	1
 ❓	wen hao	1
-❔	？	1
 ❔	wei shen me	1
 ❔	biao dian fu hao	1
 ❔	bai se wen hao	1
 ❔	kong xin	1
-❕	！	1
 ❕	chi jing	1
 ❕	biao dian fu hao	1
 ❕	bai se gan tan hao	1
 ❕	kong xin	1
-❗	！	1
 ❗	chi jing	1
 ❗	gan tan hao	1
 ❗	biao dian fu hao	1
@@ -4551,7 +4545,6 @@ use_preset_vocabulary: true
 🔤	da zi	1
 🔤	la ding wen	1
 🔤	shu ru la ding zi mu	1
-🅰	a	1
 🅰	a  xing xue	1
 🅰	an niu	1
 🅰	xue ye	1
@@ -4559,7 +4552,6 @@ use_preset_vocabulary: true
 🆎	ab  xing xue	1
 🆎	an niu	1
 🆎	xue ye	1
-🅱	b	1
 🅱	b  xing xue	1
 🅱	an niu	1
 🅱	xue ye	1
@@ -4590,7 +4582,6 @@ use_preset_vocabulary: true
 🆖	ng an niu	1
 🆖	an jian	1
 🆖	hua xu	1
-🅾	o	1
 🅾	o  xing xue	1
 🅾	an niu	1
 🅾	xue ye	1
@@ -5459,27 +5450,22 @@ use_preset_vocabulary: true
 👌🏾	shou	1
 👌🏿	ok	1
 👌🏿	shou	1
-✌🏻	v	1
 ✌🏻	cheng gong	1
 ✌🏻	shou	1
 ✌🏻	sheng li	1
 ✌🏻	sheng li shou shi	1
-✌🏼	v	1
 ✌🏼	cheng gong	1
 ✌🏼	shou	1
 ✌🏼	sheng li	1
 ✌🏼	sheng li shou shi	1
-✌🏽	v	1
 ✌🏽	cheng gong	1
 ✌🏽	shou	1
 ✌🏽	sheng li	1
 ✌🏽	sheng li shou shi	1
-✌🏾	v	1
 ✌🏾	cheng gong	1
 ✌🏾	shou	1
 ✌🏾	sheng li	1
 ✌🏾	sheng li shou shi	1
-✌🏿	v	1
 ✌🏿	cheng gong	1
 ✌🏿	shou	1
 ✌🏿	sheng li	1
