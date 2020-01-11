@@ -42,7 +42,7 @@ Poetry Snapshot:
 - double Pingyin input
 - official website UI
 - Apple offical input method UI
-- include Chinese Pinyin to Emoji mapping
+- include Chinese Pinyin to Emoji mapping(upgrade to emoji 12.0)
 
 
 ## Requirements
