@@ -94,7 +94,7 @@ Poetry Snapshot:
     - 包含 emoji 8.0，比如 🦄️ (du jiao shou)
     - 包含 emoji 9.0，比如 🤡 (xiao chou)
     - 包含 emoji 10.0，比如 🧠 (da nao)
-    - 包含 emoji 11.0，比如 🧯 (mie huo qi)
+    - 包含 emoji 11.0，比如 🧯  (mie huo qi) 🥽（hu mu jing）
     - 包含 emoji 12.0，比如 🧎(gui xia) 🪂(tiao san)
   - `luna_pinyin.emoji.apple.dict.yaml`：Apple iOS 10 Emoji
   - `luna_pinyin.emoji.scomper.dict.yaml`：Scomper 维护 Emoji（包含 Unicode 9.0）

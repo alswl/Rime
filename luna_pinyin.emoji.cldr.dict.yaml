@@ -3,15 +3,22 @@
 #
 # build contenxt
 #
+# Python 3 required
 # wget https://raw.githubusercontent.com/jolicode/emoji-search/master/synonyms/cldr-emoji-annotation-synonyms-zh.txt -O /tmp/emoji.txt
 # pip install pypinyin
-#
+# 
 # python -c '
+# 
 # import re
-# from pypinyin import lazy_pinyin
+# from pypinyin import lazy_pinyin, load_phrases_dict
 # 
 # rows = open("/tmp/emoji.txt", "r").readlines()
 # regex = re.compile(r"([^,]+) => ([^,]+), (.+)")
+# 
+# # fix heteronym
+# load_phrases_dict({
+#   "弹奏": [["tán"], ["zòu"]]
+# })
 # 
 # for row in rows:
 #     match = regex.match(row)
@@ -28,7 +35,7 @@
 
 ---
 name: luna_pinyin.emoji.cldr
-version: "2020.01.10"
+version: "2020.02.13"
 sort: by_weight
 use_preset_vocabulary: true
 ...
@@ -3276,11 +3283,11 @@ use_preset_vocabulary: true
 🎷	yin yue	1
 🎸	yue qi	1
 🎸	ji ta	1
-🎸	dan zou	1
+🎸	tan zou	1
 🎸	yan zou	1
 🎸	yin yue	1
 🎹	yue qi	1
-🎹	dan zou	1
+🎹	tan zou	1
 🎹	yan zou	1
 🎹	gang qin	1
 🎹	yin yue	1
@@ -5097,7 +5104,7 @@ use_preset_vocabulary: true
 🪔	deng	1
 🪔	di ya	1
 🪕	xian yue qi	1
-🪕	dan zou	1
+🪕	tan zou	1
 🪕	ban zhuo qin	1
 🪕	yin yue	1
 🤏🏻	yi dian	1
