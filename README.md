@@ -90,12 +90,12 @@ Poetry Snapshot:
   - `luna_pinyin.poetry.dict.yaml`：明月拼音擴充詞庫（詩詞）（Rime 自带）
   - `luna_pinyin.emoji.dict.yaml`：Rime 自带 emoji（Rime 自带）
   - `luna_pinyin.emoji.cldr.dict.yaml`：Emoji parsed from [jolicode/emoji-search: Emoji synonyms to build your own emoji-capable search engine (elasticsearch, solr)](https://github.com/jolicode/emoji-search)（强烈推荐）
-    - 包含 emoji 7.0，比如 🏎️ (sai che)
-    - 包含 emoji 8.0，比如 🦄️ (du jiao shou)
-    - 包含 emoji 9.0，比如 🤡 (xiao chou)
-    - 包含 emoji 10.0，比如 🧠 (da nao)
-    - 包含 emoji 11.0，比如 🧯  (mie huo qi) 🥽（hu mu jing）
-    - 包含 emoji 12.0，比如 🧎(gui xia) 🪂(tiao san)
+    - include emoji 7.0, eg. 🏎️ (sai che)
+    - include emoji 8.0, eg. 🦄️ (du jiao shou)
+    - include emoji 9.0, eg. 🤡 (xiao chou)
+    - include emoji 10.0, eg. 🧠 (da nao)
+    - include emoji 11.0, eg. 🧯 (mie huo qi) 🥽 (hu mu jing)
+    - include emoji 12.0, eg. 🧎(gui xia) 🪂(tiao san)
   - `luna_pinyin.emoji.apple.dict.yaml`：Apple iOS 10 Emoji
   - `luna_pinyin.emoji.scomper.dict.yaml`：Scomper 维护 Emoji（包含 Unicode 9.0）
   - `luna_pinyin.kaomoji.dict.yaml`：搜狗颜文字
