@@ -65,11 +65,12 @@ Poetry Snapshot:
   - `luna_pinyin.custom.dict.yaml.sample`：拼音自定义字典（使用 `import_tables`
         引入其他 dict），使用时需要--重命名--为 `luna_pinyin.custom.dict.yaml`
 - Dictionary
-  - `essay.txt` Rime essay 中词频高于 700 的词汇和单字（推荐，68k）
-  - `essay.origin.txt` Rime 自带的 essay 八股文
+  - `essay.txt` Rime 原版 essay 中词频高于 700 的词汇和单字（推荐，68k）`mv essay.txt essay.origin.txt; cat essay.origin.txt | awk '{if($2>700){print $0}}' > essay.txt`
+  - `luna_pinyin.hanyu.dict.yaml`：汉语大词典（Rime 自带，不推荐使用，220k）
+  - `luna_pinyin.poetry.dict.yaml`：明月拼音擴充詞庫（詩詞）（Rime 自带）
+  - `luna_pinyin.emoji.dict.yaml`：Rime 自带 emoji（Rime 自带）
   - `luna_pinyin.dict.yaml`：明月拼音（Rime 自带，70k）
   - `luna_pinyin.extended.dict.yaml`：明月拼音擴充詞庫（Rime 自带，不推荐使用，130k）
-  - `luna_pinyin.hanyu.dict.yaml`：汉语大词典（Rime 自带，不推荐使用，220k）
   - `luna_pinyin.xiandaihanyuchangyongcibiao.dict.yaml`：教育部发布的现代汉语常用词表（教育部，强烈推荐，51k）
   - `luna_pinyin.chengyusuyu.dict.yaml` 成语俗语（搜狗，40k）
      - https://pinyin.sogou.com/dict/detail/index/15097
@@ -87,8 +88,6 @@ Poetry Snapshot:
      - https://pinyin.sogou.com/dict/detail/index/15209
   - `luna_pinyin.zhongguolishicihuidaquan.dict.yaml` 中国历史词汇大全（搜狗）
      - https://pinyin.sogou.com/dict/detail/index/19430
-  - `luna_pinyin.poetry.dict.yaml`：明月拼音擴充詞庫（詩詞）（Rime 自带）
-  - `luna_pinyin.emoji.dict.yaml`：Rime 自带 emoji（Rime 自带）
   - `luna_pinyin.emoji.cldr.dict.yaml`：Emoji parsed from [jolicode/emoji-search: Emoji synonyms to build your own emoji-capable search engine (elasticsearch, solr)](https://github.com/jolicode/emoji-search)（强烈推荐）
     - include emoji 7.0, eg. 🏎️ (sai che)
     - include emoji 8.0, eg. 🦄️ (du jiao shou)
@@ -113,13 +112,15 @@ Poetry Snapshot:
   - Files generated after installation:
      - `symbols.yaml`
      - `installation.yaml`
+  - plum
 
 See [rime/plum: 東風破 /plum/: Rime configuration manager and input schema repository](https://github.com/rime/plum)
 to gernerate input methods. In short:
 
 ```
+./plum/rime-install essay
 ./plum/rime-install pinyin-simp
-./plum/rime-install pinyin-simp
+./plum/rime-install luna-pinyin
 ./plum/rime-install double-pinyin
 ./plum/rime-install combo-pinyin
 ./plum/rime-install wubi
