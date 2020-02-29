@@ -118,8 +118,11 @@ See [rime/plum: 東風破 /plum/: Rime configuration manager and input schema re
 to gernerate input methods. In short:
 
 ```
+./plum/rime-install pinyin-simp
+./plum/rime-install pinyin-simp
 ./plum/rime-install double-pinyin
 ./plum/rime-install combo-pinyin
+./plum/rime-install wubi
 ```
 
 All `dict.yaml` file can use separately.

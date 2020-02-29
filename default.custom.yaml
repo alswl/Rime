@@ -2,10 +2,11 @@
 
 patch:
   schema_list:
-    - schema: luna_pinyin
+    #- schema: luna_pinyin
     - schema: double_pinyin
-    - schema: luna_pinyin_fluency
+    #- schema: luna_pinyin_fluency
     - schema: combo_pinyin
+    - schema: wubi86
   ascii_composer:
     good_old_caps_lock: true
     switch_key:

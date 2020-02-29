@@ -30,3 +30,5 @@ luna_pinyin.custom.dict.yaml
 stroke.dict.yaml
 opencc
 emoji_suggestion.yaml
+pinyin_simp.dict.yaml
+wubi86.dict.yaml
