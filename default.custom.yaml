@@ -55,4 +55,4 @@ patch:
     #- {accept: "Control+Shift+dollar", toggle: simplification, when: always}
     #- {accept: "Control+Shift+percent", toggle: extended_charset, when: always}
     #- {accept: "Shift+space", toggle: full_shape, when: always}
-    - {accept: "Control+period", toggle: ascii_punct, when: always}
+    # - {accept: "Control+period", toggle: ascii_punct, when: always}
