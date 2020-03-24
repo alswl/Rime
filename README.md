@@ -47,12 +47,13 @@ Poetry Snapshot:
 
 ## Requirements
 
+
 - Linux
   - librime>=1.3
   - opencc>=1.0.2
 - macOS
-  - test in 0.9.27
-  - DO NOT install 0.9.20, it is a old deprecated version. You should build from source.
+  - works properly in 10.15.3 (19D76)
+  - DO NOT install 0.9.20, it is a old deprecated version. using `brew cask install squirrel` to install latest squirrel
 
 
 ## Structure
