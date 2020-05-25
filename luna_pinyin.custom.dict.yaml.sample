@@ -14,6 +14,7 @@ import_tables:
     - luna_pinyin.sijixingzhenquhuadimingciku
     - luna_pinyin.jisuanjicihuidaquan
     - luna_pinyin.wangluoliuxingxinci
+    - luna_pinyin.kaifadashenzhuanyongciku
     - luna_pinyin.shanghaishichengshixinxijingxuan
     - luna_pinyin.zhongguolishicihuidaquan
     - luna_pinyin.shanghaihuadaquan
