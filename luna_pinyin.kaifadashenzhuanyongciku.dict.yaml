@@ -8,6 +8,12 @@
 # rm 开发大神专用词库【官方推荐】.scel
 # version=$(date +%Y.%m.%d); gsed -i -E "s/^version: \".+\"$/version: \"$version\"/g" luna_pinyin.kaifadashenzhuanyongciku.dict.yaml
 
+---
+name: luna_pinyin.kaifadashenzhuanyongciku
+version: "2020.02.25"
+sort: by_weight
+use_preset_vocabulary: false
+...
 
 按引用传递	an yin yong chuan di
 按值传递	an zhi chuan di
