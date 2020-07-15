@@ -40,6 +40,7 @@ Poetry Snapshot:
 ## Feature
 
 - double Pingyin input
+- flypy_simple input（小鹤双拼音型） WIP
 - official website UI
 - Apple offical input method UI
 - include Chinese Pinyin to Emoji mapping(upgrade to emoji 12.0)

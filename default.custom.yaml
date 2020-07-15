@@ -5,8 +5,9 @@ patch:
     #- schema: luna_pinyin
     - schema: double_pinyin
     #- schema: luna_pinyin_fluency
-    - schema: combo_pinyin
-    - schema: wubi86
+    # - schema: combo_pinyin
+    # - schema: wubi86
+    - schema: flypy_simple
   ascii_composer:
     good_old_caps_lock: true
     switch_key:
