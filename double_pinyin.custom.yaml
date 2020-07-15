@@ -1,6 +1,5 @@
 patch:
   schema/name: 双拼
-  recognizer/patterns/reverse_lookup: ""  # disable stroke
   engine/filters:
     - simplifier
     - uniquifier
