@@ -8,6 +8,7 @@ patch:
     # - schema: combo_pinyin
     # - schema: wubi86
     - schema: flypy_simple
+    - schema: stroke
   ascii_composer:
     good_old_caps_lock: true
     switch_key:
