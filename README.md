@@ -99,7 +99,7 @@ Poetry Snapshot:
     - include emoji 10.0, eg. 🧠 (da nao)
     - include emoji 11.0, eg. 🧯 (mie huo qi) 🥽 (hu mu jing)
     - include emoji 12.0, eg. 🧎 (gui xia) 🪂 (tiao san)
-    - include emoji 13.0, eg. 🥲 (yan lei) 🐼 (xiong mao)
+    - include emoji 13.0, eg. 🥲 (yan lei) 🐻‍❄ (bei ji xiong)
   - `luna_pinyin.emoji.apple.dict.yaml`：Apple iOS 10 Emoji
   - `luna_pinyin.emoji.scomper.dict.yaml`：Scomper 维护 Emoji（包含 Unicode 9.0）
   - `luna_pinyin.kaomoji.dict.yaml`：搜狗颜文字
