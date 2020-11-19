@@ -38,14 +38,11 @@
 
 ---
 name: luna_pinyin.emoji.cldr
-version: "2020.02.13"
+version: "2020.11.19"
 sort: by_weight
 use_preset_vocabulary: true
 ...
 
-🐾	zhao yin	1
-🐾	zhua zi	1
-🐾	zu ji	1
 😀	hei hei	1
 😀	xiao lian	1
 😀	lian	1
@@ -142,6 +139,13 @@ use_preset_vocabulary: true
 😙	wei xiao	1
 😙	wei xiao qin qin	1
 😙	lian	1
+🥲	han lei de xiao lian	1
+🥲	wei xiao de	1
+🥲	gan dong de	1
+🥲	gan en de	1
+🥲	yan lei	1
+🥲	shi huai de	1
+🥲	jiao ao de	1
 😋	hao chi	1
 😋	jin jin you wei	1
 😋	mei wei	1
@@ -303,6 +307,12 @@ use_preset_vocabulary: true
 🥳	qing zhu	1
 🥳	ju hui	1
 🥳	ju hui xiao lian	1
+🥸	wei zhuang	1
+🥸	wei zhuang de lian	1
+🥸	yan jing	1
+🥸	lian	1
+🥸	yin man shen fen	1
+🥸	bi zi	1
 😎	tai yang jing	1
 😎	yan jing	1
 😎	ku	1
@@ -421,6 +431,12 @@ use_preset_vocabulary: true
 😫	pi bei	1
 😫	lei	1
 😫	lian	1
+🥱	he qian	1
+🥱	ha qian	1
+🥱	kun	1
+🥱	da he qian	1
+🥱	wu liao	1
+🥱	lei	1
 😤	ao man	1
 😤	sheng li	1
 😤	zi fu	1
@@ -615,10 +631,18 @@ use_preset_vocabulary: true
 💙	lan xin	1
 💜	zi	1
 💜	zi xin	1
+🤎	xin	1
+🤎	xin xing	1
+🤎	zong	1
+🤎	zong xin	1
 🖤	xin	1
 🖤	xie e	1
 🖤	hei xin	1
 🖤	hei se	1
+🤍	xin	1
+🤍	xin xing	1
+🤍	bai	1
+🤍	bai xin	1
 💯	yi bai fen	1
 💯	man fen	1
 💯	kao shi	1
@@ -684,6 +708,16 @@ use_preset_vocabulary: true
 🖖	wa ken ju shou li	1
 👌	ok	1
 👌	shou	1
+🤌	kui fa	1
+🤌	shen xun	1
+🤌	shou shi	1
+🤌	shou zhi	1
+🤌	wa ku	1
+🤌	nie shou zhi	1
+🤏	yi dian	1
+🤏	xiao	1
+🤏	shao liang	1
+🤏	nie he de shou shi	1
 ✌	cheng gong	1
 ✌	shou	1
 ✌	sheng li	1
@@ -793,6 +827,14 @@ use_preset_vocabulary: true
 💪	er tou ji	1
 💪	qiang zhuang	1
 💪	ji rou	1
+🦾	yi zhi	1
+🦾	shou bi	1
+🦾	wu zhang ai	1
+🦾	ji xie shou bi	1
+🦿	yi zhi	1
+🦿	wu zhang ai	1
+🦿	ji xie tui	1
+🦿	tui	1
 🦵	tui	1
 🦵	bo xing	1
 🦵	ti	1
@@ -802,6 +844,12 @@ use_preset_vocabulary: true
 👂	ting	1
 👂	er	1
 👂	er duo	1
+🦻	zhu ting qi	1
+🦻	ting li zhang ai	1
+🦻	shi cong	1
+🦻	dai zhu ting qi de er duo	1
+🦻	wu zhang ai	1
+🦻	long	1
 👃	xiu	1
 👃	wen	1
 👃	bi	1
@@ -811,6 +859,18 @@ use_preset_vocabulary: true
 🧠	zhi hui	1
 🧠	zhi neng	1
 🧠	nao	1
+🫀	zhong xin	1
+🫀	qi guan	1
+🫀	xin lv	1
+🫀	xin zang qi guan	1
+🫀	xin zang bing xue	1
+🫀	xin tiao	1
+🫁	xi qi	1
+🫁	hu xi	1
+🫁	hu xi zuo yong	1
+🫁	hu qi	1
+🫁	qi guan	1
+🫁	fei	1
 🦷	ya yi	1
 🦷	ya chi	1
 🦴	gu tou	1
@@ -840,55 +900,19 @@ use_preset_vocabulary: true
 🧑	cheng ren	1
 👱	jin fa	1
 👱	jin se tou fa de ren	1
-🧑‍🤝‍🧑	ren	1
-🧑‍🤝‍🧑	qing lv	1
-🧑‍🤝‍🧑	shou	1
-🧑‍🤝‍🧑	shou la shou de liang ge ren	1
-🧑‍🤝‍🧑	la shou	1
-🧑‍🤝‍🧑	wo shou	1
 👨	nan	1
 👨	nan ren	1
-👨‍🦯	zhu mang zhang de nan ren	1
-👨‍🦯	guai zhang	1
-👨‍🦯	wu zhang ai	1
-👨‍🦯	nan	1
-👨‍🦯	mang	1
-👨‍🦼	zuo dian dong lun yi de nan ren	1
-👨‍🦼	wu zhang ai	1
-👨‍🦼	dian dong	1
-👨‍🦼	nan	1
-👨‍🦼	lun yi	1
-👨‍🦽	zuo shou dong lun yi de nan ren	1
-👨‍🦽	shou dong	1
-👨‍🦽	wu zhang ai	1
-👨‍🦽	nan	1
-👨‍🦽	lun yi	1
-👱‍♂	nan	1
-👱‍♂	jin fa	1
-👱‍♂	jin fa nan	1
 🧔	ren	1
 🧔	you hu zi de ren	1
 🧔	nan	1
 🧔	luo sai hu	1
 🧔	hu zi	1
 🧔	hu xu	1
+👱‍♂	nan	1
+👱‍♂	jin fa	1
+👱‍♂	jin fa nan	1
 👩	nv	1
 👩	nv ren	1
-👩‍🦯	nv	1
-👩‍🦯	zhu mang zhang de nv ren	1
-👩‍🦯	guai zhang	1
-👩‍🦯	wu zhang ai	1
-👩‍🦯	mang	1
-👩‍🦼	zuo dian dong lun yi de nv ren	1
-👩‍🦼	nv	1
-👩‍🦼	wu zhang ai	1
-👩‍🦼	dian dong	1
-👩‍🦼	lun yi	1
-👩‍🦽	zuo shou dong lun yi de nv ren	1
-👩‍🦽	nv	1
-👩‍🦽	shou dong	1
-👩‍🦽	wu zhang ai	1
-👩‍🦽	lun yi	1
 👱‍♀	nv	1
 👱‍♀	jin fa	1
 👱‍♀	jin fa nv	1
@@ -970,6 +994,21 @@ use_preset_vocabulary: true
 🙋‍♀	ju shou	1
 🙋‍♀	nv	1
 🙋‍♀	nv sheng ju shou	1
+🧏	ting li	1
+🧏	shi cong zhe	1
+🧏	wu zhang ai	1
+🧏	er duo	1
+🧏	long	1
+🧏‍♂	ting li zhang ai	1
+🧏‍♂	shi cong de nan ren	1
+🧏‍♂	nan	1
+🧏‍♂	er duo	1
+🧏‍♂	long	1
+🧏‍♀	ting li zhang ai	1
+🧏‍♀	shi cong de nv ren	1
+🧏‍♀	nv	1
+🧏‍♀	er duo	1
+🧏‍♀	long	1
 🙇	bu hao yi si	1
 🙇	dui bu qi	1
 🙇	dao qian	1
@@ -1009,6 +1048,10 @@ use_preset_vocabulary: true
 🤷‍♀	nv sheng song jian	1
 🤷‍♀	huai yi	1
 🤷‍♀	wu shi	1
+🧑‍⚕	yi sheng	1
+🧑‍⚕	wei sheng gong zuo zhe	1
+🧑‍⚕	hu shi	1
+🧑‍⚕	zhi liao shi	1
 👨‍⚕	yi hu ren yuan	1
 👨‍⚕	yi sheng	1
 👨‍⚕	hu shi	1
@@ -1021,6 +1064,9 @@ use_preset_vocabulary: true
 👩‍⚕	nv yi sheng	1
 👩‍⚕	hu shi	1
 👩‍⚕	zhi liao shi	1
+🧑‍🎓	xue sheng	1
+🧑‍🎓	bi ye	1
+🧑‍🎓	bi ye sheng	1
 👨‍🎓	xue sheng	1
 👨‍🎓	bi ye	1
 👨‍🎓	nan	1
@@ -1029,6 +1075,9 @@ use_preset_vocabulary: true
 👩‍🎓	nv xue sheng	1
 👩‍🎓	xue sheng	1
 👩‍🎓	bi ye	1
+🧑‍🏫	jiao shi	1
+🧑‍🏫	jiao shou	1
+🧑‍🏫	lao shi	1
 👨‍🏫	jiao shi	1
 👨‍🏫	jiao shou	1
 👨‍🏫	nan	1
@@ -1039,6 +1088,8 @@ use_preset_vocabulary: true
 👩‍🏫	jiao shi	1
 👩‍🏫	jiao shou	1
 👩‍🏫	lao shi	1
+🧑‍⚖	fa guan	1
+🧑‍⚖	fa lv	1
 👨‍⚖	zheng yi	1
 👨‍⚖	fa guan	1
 👨‍⚖	fa lv	1
@@ -1049,6 +1100,8 @@ use_preset_vocabulary: true
 👩‍⚖	zheng yi	1
 👩‍⚖	fa guan	1
 👩‍⚖	fa lv	1
+🧑‍🌾	nong min	1
+🧑‍🌾	yuan ding	1
 👨‍🌾	nong fu	1
 👨‍🌾	nong min	1
 👨‍🌾	yuan ding	1
@@ -1057,6 +1110,9 @@ use_preset_vocabulary: true
 👩‍🌾	nong min	1
 👩‍🌾	yuan ding	1
 👩‍🌾	nv	1
+🧑‍🍳	zuo fan	1
+🧑‍🍳	chu shi	1
+🧑‍🍳	da chu	1
 👨‍🍳	zuo fan	1
 👨‍🍳	chu shi	1
 👨‍🍳	da chu	1
@@ -1067,6 +1123,9 @@ use_preset_vocabulary: true
 👩‍🍳	da chu	1
 👩‍🍳	nv	1
 👩‍🍳	nv chu shi	1
+🧑‍🔧	ji gong	1
+🧑‍🔧	shui guan gong	1
+🧑‍🔧	dian gong	1
 👨‍🔧	ji gong	1
 👨‍🔧	shui guan gong	1
 👨‍🔧	dian gong	1
@@ -1077,6 +1136,10 @@ use_preset_vocabulary: true
 👩‍🔧	ji gong	1
 👩‍🔧	shui guan gong	1
 👩‍🔧	dian gong	1
+🧑‍🏭	gong ye	1
+🧑‍🏭	gong ren	1
+🧑‍🏭	gong chang	1
+🧑‍🏭	zhuang pei	1
 👨‍🏭	gong ye	1
 👨‍🏭	gong chang	1
 👨‍🏭	nan gong ren	1
@@ -1085,6 +1148,10 @@ use_preset_vocabulary: true
 👩‍🏭	gong ye	1
 👩‍🏭	gong chang	1
 👩‍🏭	zhuang pei	1
+🧑‍💼	shang ren	1
+🧑‍💼	jian zhu shi	1
+🧑‍💼	bai ling	1
+🧑‍💼	jing li	1
 👨‍💼	shang ren	1
 👨‍💼	jian zhu shi	1
 👨‍💼	nan bai ling	1
@@ -1093,6 +1160,11 @@ use_preset_vocabulary: true
 👩‍💼	nv bai ling	1
 👩‍💼	jian zhu shi	1
 👩‍💼	jing li	1
+🧑‍🔬	hua xue jia	1
+🧑‍🔬	gong cheng xue jia	1
+🧑‍🔬	wu li xue jia	1
+🧑‍🔬	sheng wu xue jia	1
+🧑‍🔬	ke xue jia	1
 👨‍🔬	hua xue jia	1
 👨‍🔬	gong cheng xue jia	1
 👨‍🔬	wu li xue jia	1
@@ -1107,6 +1179,11 @@ use_preset_vocabulary: true
 👩‍🔬	wu li xue jia	1
 👩‍🔬	sheng wu xue jia	1
 👩‍🔬	ke xue jia	1
+🧑‍💻	fa ming	1
+🧑‍💻	kai fa ren yuan	1
+🧑‍💻	ma nong	1
+🧑‍💻	cheng xu yuan	1
+🧑‍💻	ruan jian	1
 👨‍💻	fa ming jia	1
 👨‍💻	kai fa ren yuan	1
 👨‍💻	nan	1
@@ -1121,6 +1198,11 @@ use_preset_vocabulary: true
 👩‍💻	ma nong	1
 👩‍💻	cheng xu yuan	1
 👩‍💻	ruan jian	1
+🧑‍🎤	yao gun ge shou	1
+🧑‍🎤	ming xing	1
+🧑‍🎤	ge shou	1
+🧑‍🎤	yan yuan	1
+🧑‍🎤	yi ren	1
 👨‍🎤	yao gun ge shou	1
 👨‍🎤	ming xing	1
 👨‍🎤	nan	1
@@ -1133,18 +1215,24 @@ use_preset_vocabulary: true
 👩‍🎤	ming xing	1
 👩‍🎤	yan yuan	1
 👩‍🎤	yi ren	1
+🧑‍🎨	hua jia	1
+🧑‍🎨	yi shu jia	1
 👨‍🎨	nan	1
 👨‍🎨	nan yi shu jia	1
 👨‍🎨	hua jia	1
 👩‍🎨	nv	1
 👩‍🎨	nv yi shu jia	1
 👩‍🎨	hua jia	1
+🧑‍✈	fei ji	1
+🧑‍✈	fei xing yuan	1
 👨‍✈	nan	1
 👨‍✈	nan fei xing yuan	1
 👨‍✈	fei ji	1
 👩‍✈	nv	1
 👩‍✈	nv fei xing yuan	1
 👩‍✈	fei ji	1
+🧑‍🚀	yu hang yuan	1
+🧑‍🚀	huo jian	1
 👨‍🚀	yu hang yuan	1
 👨‍🚀	huo jian	1
 👨‍🚀	nan	1
@@ -1153,6 +1241,8 @@ use_preset_vocabulary: true
 👩‍🚀	nv yu hang yuan	1
 👩‍🚀	yu hang yuan	1
 👩‍🚀	huo jian	1
+🧑‍🚒	xiao fang yuan	1
+🧑‍🚒	xiao fang che	1
 👨‍🚒	xiao fang yuan	1
 👨‍🚒	xiao fang che	1
 👨‍🚒	nan	1
@@ -1194,6 +1284,10 @@ use_preset_vocabulary: true
 💂‍♀	nv	1
 💂‍♀	nv wei bing	1
 💂‍♀	shou wei	1
+🥷	ren zhe	1
+🥷	da dou	1
+🥷	yin cang	1
+🥷	yin shen	1
 👷	gong ren	1
 👷	jian zhu	1
 👷	jian zhu gong ren	1
@@ -1227,9 +1321,22 @@ use_preset_vocabulary: true
 🤵	yan wei fu	1
 🤵	nan ren	1
 🤵	chuan yan wei fu de nan ren	1
+🤵‍♂	nan ren	1
+🤵‍♂	li fu	1
+🤵‍♂	chuan li fu de nan ren	1
+🤵‍♀	nv ren	1
+🤵‍♀	li fu	1
+🤵‍♀	chuan li fu de nv ren	1
 👰	tou sha	1
-👰	dai tou sha de xin niang	1
+👰	hun li	1
+👰	dai tou sha de ren	1
 👰	xin niang	1
+👰‍♂	tou sha	1
+👰‍♂	dai tou sha de nan ren	1
+👰‍♂	nan ren	1
+👰‍♀	tou sha	1
+👰‍♀	nv ren	1
+👰‍♀	dai tou sha de nv ren	1
 🤰	nv ren	1
 🤰	yun fu	1
 🤰	huai yun	1
@@ -1237,6 +1344,21 @@ use_preset_vocabulary: true
 🤱	bu ru	1
 🤱	ying er	1
 🤱	mu ru wei yang	1
+👩‍🍼	bu ru	1
+👩‍🍼	bu ru de nv ren	1
+👩‍🍼	wei yang	1
+👩‍🍼	nv ren	1
+👩‍🍼	ying er	1
+👨‍🍼	bu ru	1
+👨‍🍼	bu ru de nan ren	1
+👨‍🍼	wei yang	1
+👨‍🍼	ying er	1
+👨‍🍼	nan ren	1
+🧑‍🍼	ren	1
+🧑‍🍼	bu ru	1
+🧑‍🍼	bu ru de ren	1
+🧑‍🍼	wei yang	1
+🧑‍🍼	ying er	1
 👼	er tong	1
 👼	tian shi	1
 👼	hai zi	1
@@ -1248,6 +1370,9 @@ use_preset_vocabulary: true
 🤶	sheng dan nai nai	1
 🤶	nai nai	1
 🤶	lao ma	1
+🧑‍🎄	ren	1
+🧑‍🎄	sheng dan	1
+🧑‍🎄	sheng dan ren	1
 🦸	nv ying xiong	1
 🦸	hao ren	1
 🦸	ying xiong	1
@@ -1363,6 +1488,67 @@ use_preset_vocabulary: true
 🚶‍♀	nv xing ren	1
 🚶‍♀	tu bu	1
 🚶‍♀	zou lu	1
+🧍	zhan zhe	1
+🧍	zhan li	1
+🧍	zhan li zhe	1
+🧍‍♂	nan	1
+🧍‍♂	zhan zhe	1
+🧍‍♂	zhan li	1
+🧍‍♂	zhan li de nan ren	1
+🧍‍♀	nv	1
+🧍‍♀	zhan zhe	1
+🧍‍♀	zhan li	1
+🧍‍♀	zhan li de nv ren	1
+🧎	xia gui zhe	1
+🧎	gui xia	1
+🧎	gui zuo	1
+🧎‍♂	xia gui	1
+🧎‍♂	nan	1
+🧎‍♂	gui xia de nan ren	1
+🧎‍♂	gui zuo	1
+🧎‍♀	xia gui	1
+🧎‍♀	nv	1
+🧎‍♀	gui xia de nv ren	1
+🧎‍♀	gui zuo	1
+🧑‍🦯	shi ming de	1
+🧑‍🦯	shi yong xing	1
+🧑‍🦯	zhu mang zhang de ren	1
+👨‍🦯	zhu mang zhang de nan ren	1
+👨‍🦯	guai zhang	1
+👨‍🦯	wu zhang ai	1
+👨‍🦯	nan	1
+👨‍🦯	mang	1
+👩‍🦯	nv	1
+👩‍🦯	zhu mang zhang de nv ren	1
+👩‍🦯	guai zhang	1
+👩‍🦯	wu zhang ai	1
+👩‍🦯	mang	1
+🧑‍🦼	ke fang wen xing	1
+🧑‍🦼	zuo dian dong lun yi de ren	1
+🧑‍🦼	lun yi	1
+👨‍🦼	zuo dian dong lun yi de nan ren	1
+👨‍🦼	wu zhang ai	1
+👨‍🦼	dian dong	1
+👨‍🦼	nan	1
+👨‍🦼	lun yi	1
+👩‍🦼	zuo dian dong lun yi de nv ren	1
+👩‍🦼	nv	1
+👩‍🦼	wu zhang ai	1
+👩‍🦼	dian dong	1
+👩‍🦼	lun yi	1
+🧑‍🦽	ke fang wen xing	1
+🧑‍🦽	zuo shou dong lun yi de ren	1
+🧑‍🦽	lun yi	1
+👨‍🦽	zuo shou dong lun yi de nan ren	1
+👨‍🦽	shou dong	1
+👨‍🦽	wu zhang ai	1
+👨‍🦽	nan	1
+👨‍🦽	lun yi	1
+👩‍🦽	zuo shou dong lun yi de nv ren	1
+👩‍🦽	nv	1
+👩‍🦽	shou dong	1
+👩‍🦽	wu zhang ai	1
+👩‍🦽	lun yi	1
 🏃	pao bu	1
 🏃	pao bu zhe	1
 🏃	ma la song	1
@@ -1592,6 +1778,16 @@ use_preset_vocabulary: true
 🛌	bin guan	1
 🛌	tang zai chuang shang de ren	1
 🛌	jiu dian	1
+🧑‍🤝‍🧑	ren	1
+🧑‍🤝‍🧑	qing lv	1
+🧑‍🤝‍🧑	shou	1
+🧑‍🤝‍🧑	shou la shou de liang ge ren	1
+🧑‍🤝‍🧑	la shou	1
+🧑‍🤝‍🧑	wo shou	1
+👭	liang ge nv ren	1
+👭	qing lv	1
+👭	shou la shou	1
+👭	shou la shou de liang ge nv ren	1
 👫	yi nan yi nv	1
 👫	qing lv	1
 👫	shou la shou	1
@@ -1602,10 +1798,6 @@ use_preset_vocabulary: true
 👬	shou la shou	1
 👬	shou la shou de liang ge nan ren	1
 👬	huang dao shi er gong	1
-👭	liang ge nv ren	1
-👭	qing lv	1
-👭	shou la shou	1
-👭	shou la shou de liang ge nv ren	1
 💏	qin wen	1
 💏	qing lv	1
 💏	jie wen	1
@@ -1625,6 +1817,11 @@ use_preset_vocabulary: true
 👥	jian ying	1
 👥	ban shen xiang	1
 👥	shuang ren xiang	1
+🫂	ren de yong bao	1
+🫂	zai jian	1
+🫂	nin hao	1
+🫂	gan xie	1
+🫂	yong bao	1
 👣	jiao yin	1
 👣	zu ji	1
 🦰	jiang huang se	1
@@ -1640,23 +1837,25 @@ use_preset_vocabulary: true
 🦲	guang tou	1
 🦲	hua liao	1
 🦲	tu ding	1
-♀	nv xing fu hao	1
-♀	fu hao	1
-♀	ci xing	1
-♂	nan xing fu hao	1
-♂	fu hao	1
-♂	xiong xing	1
 🐵	hou	1
 🐵	hou tou	1
 🐒	hou	1
 🐒	hou zi	1
 🦍	da xing xing	1
+🦧	xing xing	1
+🦧	hou	1
+🦧	yuan	1
+🦧	hong mao xing xing	1
 🐶	chong wu	1
 🐶	gou	1
 🐶	gou lian	1
 🐶	lian	1
 🐕	chong wu	1
 🐕	gou	1
+🦮	dao mang quan	1
+🦮	zhi yin	1
+🦮	wu zhang ai	1
+🦮	mang	1
 🐕‍🦺	gong zuo quan	1
 🐕‍🦺	wu zhang ai	1
 🐕‍🦺	fu wu quan	1
@@ -1681,6 +1880,10 @@ use_preset_vocabulary: true
 🐱	lian	1
 🐈	chong wu	1
 🐈	mao	1
+🐈‍⬛	bu ji li	1
+🐈‍⬛	mao	1
+🐈‍⬛	hei mao	1
+🐈‍⬛	hei se	1
 🦁	shi zi	1
 🦁	shi zi zuo	1
 🦁	lian	1
@@ -1705,6 +1908,10 @@ use_preset_vocabulary: true
 🦓	ban ma	1
 🦓	tiao wen	1
 🦌	lu	1
+🦬	da ye niu	1
+🦬	ou zhou ye niu	1
+🦬	shui niu	1
+🦬	chu qun	1
 🐮	nai niu	1
 🐮	nai niu tou	1
 🐮	lian	1
@@ -1750,6 +1957,11 @@ use_preset_vocabulary: true
 🦒	chang jing lu	1
 🐘	da xiang	1
 🐘	xiang	1
+🦣	da xing	1
+🦣	you rong mao de	1
+🦣	mie jue	1
+🦣	meng ma	1
+🦣	zhang ya	1
 🦏	xi niu	1
 🦛	he ma	1
 🐭	lao shu tou	1
@@ -1769,18 +1981,38 @@ use_preset_vocabulary: true
 🐇	tu zi	1
 🐿	song shu	1
 🐿	hua li shu	1
+🦫	mu chu	1
+🦫	hai li	1
 🦔	ci wei	1
 🦇	xi xue gui	1
 🦇	bian fu	1
 🐻	tou	1
 🐻	xiong	1
 🐻	lian	1
+🐻‍❄	bei ji	1
+🐻‍❄	bei ji xiong	1
+🐻‍❄	xiong	1
+🐻‍❄	bai se	1
 🐨	ao da li ya	1
 🐨	kao la	1
 🐼	tou	1
 🐼	xiong mao	1
 🐼	pang da	1
 🐼	lian	1
+🦥	man	1
+🦥	lan	1
+🦥	shu lan	1
+🦥	pa shu	1
+🦥	chi huan	1
+🦦	dong wu	1
+🦦	bu yu	1
+🦦	shui ta	1
+🦦	ta	1
+🦦	you	1
+🦨	xun	1
+🦨	chou	1
+🦨	chou you	1
+🦨	you	1
 🦘	xiao dai shu	1
 🦘	you dai lei dong wu	1
 🦘	ao da li ya	1
@@ -1789,6 +2021,9 @@ use_preset_vocabulary: true
 🦡	huan	1
 🦡	jiu chan	1
 🦡	mi huan	1
+🐾	zhao yin	1
+🐾	zhua zi	1
+🐾	zu ji	1
 🦃	huo ji	1
 🐔	ji	1
 🐓	gong ji	1
@@ -1820,6 +2055,16 @@ use_preset_vocabulary: true
 🦉	mao tou ying	1
 🦉	rui zhi	1
 🦉	niao	1
+🦤	mao li qiu si	1
+🦤	du du niao	1
+🦤	mie jue	1
+🪶	yu mao	1
+🪶	qing	1
+🪶	fei	1
+🪶	niao	1
+🦩	huo lie niao	1
+🦩	re dai	1
+🦩	yan li	1
 🦚	kong que	1
 🦚	zhao yao	1
 🦚	ci kong que	1
@@ -1859,6 +2104,8 @@ use_preset_vocabulary: true
 🐋	jing yu	1
 🐬	hai tun	1
 🐬	ya jiao ban	1
+🦭	hai shi	1
+🦭	hai bao	1
 🐟	shuang yu zuo	1
 🐟	yu	1
 🐟	huang dao shi er gong	1
@@ -1885,11 +2132,16 @@ use_preset_vocabulary: true
 🐜	ma yi	1
 🐝	qin lao	1
 🐝	mi feng	1
+🪲	kun chong	1
+🪲	jia chong	1
 🐞	kun chong	1
 🐞	mu	1
 🐞	piao chong	1
 🦗	qu qu	1
 🦗	xi shuai	1
+🪳	hai chong	1
+🪳	kun chong	1
+🪳	zhang lang	1
 🕷	zhi zhu	1
 🕸	zhu wang	1
 🕸	zhi zhu wang	1
@@ -1903,6 +2155,15 @@ use_preset_vocabulary: true
 🦟	ji bing	1
 🦟	bing du	1
 🦟	wen zi	1
+🪰	hai chong	1
+🪰	ji bing	1
+🪰	fu lan	1
+🪰	cang ying	1
+🪰	qu	1
+🪱	ji sheng chong	1
+🪱	huan jie dong wu	1
+🪱	qiu yin	1
+🪱	ru chong	1
 🦠	bian xing chong	1
 🦠	bing du	1
 🦠	xi jun	1
@@ -1932,6 +2193,12 @@ use_preset_vocabulary: true
 🌱	you miao	1
 🌱	ya	1
 🌱	miao	1
+🪴	pei yu	1
+🪴	fang zi	1
+🪴	ku zao	1
+🪴	zhi wu	1
+🪴	sheng zhang	1
+🪴	pen zai zhi wu	1
 🌲	chang qing shu	1
 🌲	song shu	1
 🌲	shu	1
@@ -2001,6 +2268,8 @@ use_preset_vocabulary: true
 🍒	shui guo	1
 🍓	shui guo	1
 🍓	cao mei	1
+🫐	lan mei	1
+🫐	yue ju	1
 🥝	qi yi guo	1
 🥝	shui guo	1
 🥝	mi hou tao	1
@@ -2008,6 +2277,8 @@ use_preset_vocabulary: true
 🍅	fan qie	1
 🍅	shu cai	1
 🍅	xi hong shi	1
+🫒	gan lan	1
+🫒	shi wu	1
 🥥	zong lv	1
 🥥	ye zi	1
 🥑	shui guo	1
@@ -2027,6 +2298,9 @@ use_preset_vocabulary: true
 🌽	bao mi	1
 🌶	hong la jiao	1
 🌶	la jiao	1
+🫑	deng long jiao	1
+🫑	shu cai	1
+🫑	la jiao	1
 🥒	pao cai	1
 🥒	shu cai	1
 🥒	shi wu	1
@@ -2038,6 +2312,14 @@ use_preset_vocabulary: true
 🥬	wo ju	1
 🥦	gan lan	1
 🥦	xi lan hua	1
+🧄	zuo liao	1
+🧄	da suan	1
+🧄	suan	1
+🧄	suan tou	1
+🧄	tiao wei	1
+🧅	zuo liao	1
+🧅	yang cong	1
+🧅	tiao wei	1
 🍄	mo gu	1
 🥜	jian guo	1
 🥜	hua sheng	1
@@ -2054,6 +2336,11 @@ use_preset_vocabulary: true
 🥖	fa shi zhang gun mian bao	1
 🥖	mian bao	1
 🥖	shi wu	1
+🫓	yuan pan zhuang kao bing	1
+🫓	bian mian bao	1
+🫓	yu mi bing	1
+🫓	pi ta bing	1
+🫓	bao cui bing	1
 🥨	niu qu shi pin	1
 🥨	jiao yan juan bing	1
 🥯	nai lao jiang	1
@@ -2062,6 +2349,11 @@ use_preset_vocabulary: true
 🥞	lao bing	1
 🥞	jian bing	1
 🥞	shi wu	1
+🧇	hua fu bing	1
+🧇	ge zi bing	1
+🧇	dian xin	1
+🧇	kao	1
+🧇	wo fu bing	1
 🧀	nai lao	1
 🧀	zhi shi	1
 🧀	qi si	1
@@ -2096,11 +2388,19 @@ use_preset_vocabulary: true
 🌯	yu mi jian bing	1
 🌯	mo xi ge	1
 🌯	mo xi ge yu mi jian bing	1
+🫔	zong zi	1
+🫔	mo xi ge	1
+🫔	mo xi ge zong zi	1
 🥙	jia xin	1
 🥙	jia xin bing	1
 🥙	sha la san ming zhi	1
 🥙	rou jia mo	1
 🥙	shi wu	1
+🧆	zhong dong shu cai qiu	1
+🧆	you zha ying zui dou bing	1
+🧆	zha dou wan zi	1
+🧆	rou wan	1
+🧆	ying zui dou	1
 🥚	dan	1
 🥚	shi wu	1
 🍳	ping di guo	1
@@ -2113,6 +2413,12 @@ use_preset_vocabulary: true
 🥘	shi wu	1
 🍲	yi guo shi wu	1
 🍲	shi wu	1
+🫕	nai lao	1
+🫕	nai lao huo guo	1
+🫕	qiao ke li	1
+🫕	rui shi	1
+🫕	rong hua	1
+🫕	guo	1
 🥣	zao can	1
 🥣	wan shao	1
 🥣	zhou	1
@@ -2121,6 +2427,9 @@ use_preset_vocabulary: true
 🥗	lv se sha la	1
 🥗	shi wu	1
 🍿	bao mi hua	1
+🧈	ru zhi pin	1
+🧈	niu nai	1
+🧈	huang you	1
 🧂	zuo liao ping	1
 🧂	yan	1
 🧂	tiao wei pin	1
@@ -2188,6 +2497,10 @@ use_preset_vocabulary: true
 🦑	shi wu	1
 🦑	you yu	1
 🦑	mo yu	1
+🦪	hai xian	1
+🦪	mu li	1
+🦪	zhen zhu	1
+🦪	sheng hao	1
 🍦	yuan tong bing qi lin	1
 🍦	yuan tong bing ji ling	1
 🍧	bing	1
@@ -2237,6 +2550,9 @@ use_preset_vocabulary: true
 ☕	re yin	1
 ☕	cha	1
 ☕	yin liao	1
+🫖	hu	1
+🫖	cha	1
+🫖	cha hu	1
 🍵	bei	1
 🍵	mei you ba shou de cha bei	1
 🍵	re cha	1
@@ -2277,6 +2593,22 @@ use_preset_vocabulary: true
 🥤	dai xi guan bei	1
 🥤	guo zhi	1
 🥤	su da	1
+🧋	pao pao	1
+🧋	niu nai	1
+🧋	zhen zhu	1
+🧋	zhen zhu nai cha	1
+🧋	cha	1
+🧃	xi guan	1
+🧃	guo zhi he	1
+🧃	he zhuang	1
+🧃	yin liao he	1
+🧉	cha	1
+🧉	yin liao	1
+🧉	ma dai cha	1
+🧊	bing kuai	1
+🧊	bing shan	1
+🧊	leng que	1
+🧊	leng yin	1
 🥢	kuai zi	1
 🥢	zhu	1
 🍽	dao	1
@@ -2361,6 +2693,16 @@ use_preset_vocabulary: true
 🧱	sha jiang	1
 🧱	zhuan	1
 🧱	nian tu	1
+🪨	gu ti	1
+🪨	yan shi	1
+🪨	ju shi	1
+🪨	shi tou	1
+🪵	yuan mu	1
+🪵	mu tou	1
+🪵	mu cai	1
+🛖	yuan wu	1
+🛖	xiao wu	1
+🛖	meng gu bao	1
 🏘	zhu zhai	1
 🏘	fang	1
 🏘	fang wu jian zhu	1
@@ -2420,6 +2762,12 @@ use_preset_vocabulary: true
 🕌	zong jiao	1
 🕌	qing zhen si	1
 🕌	mu si lin	1
+🛕	fo si	1
+🛕	fo jiao	1
+🛕	yin du si miao	1
+🛕	si miao	1
+🛕	si yuan	1
+🛕	miao yu	1
 🕍	hui tang	1
 🕍	zong jiao	1
 🕍	you tai	1
@@ -2468,8 +2816,6 @@ use_preset_vocabulary: true
 ♨	quan	1
 ♨	wen quan	1
 ♨	re qi teng teng	1
-🌌	xing kong	1
-🌌	yin he	1
 🎠	xuan zhuan mu ma	1
 🎠	mu ma	1
 🎠	you le yuan	1
@@ -2550,6 +2896,9 @@ use_preset_vocabulary: true
 🚙	suv	1
 🚙	xiu xian che	1
 🚙	yun dong xing duo yong tu che	1
+🛻	ka che	1
+🛻	chang peng xiao xing zai huo ka che	1
+🛻	zai huo	1
 🚚	ka che	1
 🚚	huo che	1
 🚛	ka che	1
@@ -2561,12 +2910,26 @@ use_preset_vocabulary: true
 🏍	mo tuo	1
 🏍	mo tuo che	1
 🛵	xiao xing mo tuo che	1
+🦽	shou dong lun yi	1
+🦽	wu zhang ai	1
+🦽	lun yi	1
+🦼	wu zhang ai	1
+🦼	dian dong lun yi	1
+🦼	lun yi	1
+🛺	san jiao ji	1
+🛺	san beng zi	1
+🛺	san lun mo tuo che	1
+🛺	du du che	1
+🛺	zi dong ren li che	1
 🚲	dan che	1
 🚲	jiao ta che	1
 🚲	zi xing che	1
 🛴	hua ban che	1
 🛹	ban	1
 🛹	hua ban	1
+🛼	si lun hua bing xie	1
+🛼	hua bing	1
+🛼	lun shi	1
 🚏	gong jiao zhan	1
 🚏	gong jiao che zhan	1
 🚏	gong gong qi che zhan	1
@@ -2625,6 +2988,12 @@ use_preset_vocabulary: true
 🛬	dao da	1
 🛬	hang ban jiang luo	1
 🛬	jiang luo	1
+🪂	fan san	1
+🪂	xuan gua hua xiang	1
+🪂	hua xiang	1
+🪂	hua xiang san	1
+🪂	tiao san	1
+🪂	jiang luo san	1
 💺	zuo wei	1
 💺	yi zi	1
 🚁	zhi sheng ji	1
@@ -2738,12 +3107,16 @@ use_preset_vocabulary: true
 🌝	man yue	1
 🌞	tai yang	1
 🌞	wei xiao de tai yang	1
+🪐	tu xing	1
+🪐	you huan xing xing	1
 ⭐	wu jiao xing	1
 ⭐	xing xing	1
 🌟	fa guang	1
 🌟	xing xing	1
 🌟	shan liang de xing xing	1
 🌠	liu xing	1
+🌌	xing kong	1
+🌌	yin he	1
 ☁	yun	1
 ☁	yin	1
 ⛅	wu yun bi ri	1
@@ -2989,6 +3362,10 @@ use_preset_vocabulary: true
 ⛸	hua bing	1
 🎣	diao yu gan	1
 🎣	yu gan	1
+🤿	fu qian	1
+🤿	shen qian	1
+🤿	qian shui	1
+🤿	qian shui mian zhao	1
 🎽	shang yi	1
 🎽	pao bu	1
 🎽	yun dong bei xin	1
@@ -3005,6 +3382,12 @@ use_preset_vocabulary: true
 🎯	zheng zhong ba xin de fei biao	1
 🎯	ba xin	1
 🎯	fei biao	1
+🪀	shang xia qi luo	1
+🪀	you you qiu	1
+🪀	wan ju	1
+🪁	ao xiang	1
+🪁	feng zheng	1
+🪁	fei xiang	1
 🎱	tai qiu	1
 🎱	zhuo qiu	1
 🔮	ming yun	1
@@ -3013,6 +3396,10 @@ use_preset_vocabulary: true
 🔮	shui jing qiu	1
 🔮	qiu	1
 🔮	cai fu	1
+🪄	nv wu	1
+🪄	wu shi	1
+🪄	mo bang	1
+🪄	mo fa	1
 🧿	xiao zhuang shi pin	1
 🧿	e mo zhi yan	1
 🧿	hu shen fu	1
@@ -3041,6 +3428,12 @@ use_preset_vocabulary: true
 🧸	tai di xiong	1
 🧸	wan ou	1
 🧸	wan ju	1
+🪅	qing zhu	1
+🪅	cai guan	1
+🪅	ju hui	1
+🪆	e luo si tao wa	1
+🪆	tao wa	1
+🪆	wa wa	1
 ♠	pu ke	1
 ♠	pai	1
 ♠	kui shan	1
@@ -3092,10 +3485,17 @@ use_preset_vocabulary: true
 🧵	sheng zi	1
 🧵	feng ren	1
 🧵	zhen	1
+🪡	xiu hua zhen	1
+🪡	feng he	1
+🪡	feng he zhen	1
+🪡	feng ren	1
+🪡	feng xian	1
+🪡	cai jian	1
 🧶	mao xian	1
 🧶	mao xian qiu	1
 🧶	bian zhi	1
 🧶	gou zhen bian zhi wu	1
+🪢	jie	1
 👓	yan jing	1
 🕶	tai yang jing	1
 🕶	mo jing	1
@@ -3107,6 +3507,11 @@ use_preset_vocabulary: true
 🥼	shi yan ren yuan	1
 🥼	bai da gua	1
 🥼	ke xue jia	1
+🦺	an quan	1
+🦺	jiu sheng yi	1
+🦺	jin ji	1
+🦺	bei xin	1
+🦺	tao sheng	1
 👔	chen shan ling dai	1
 👔	ling dai	1
 👕	t xu	1
@@ -3124,6 +3529,27 @@ use_preset_vocabulary: true
 👗	lian yi qun	1
 👘	he fu	1
 👘	ri ben	1
+🥻	yin du	1
+🥻	pi jian	1
+🥻	sha li	1
+🥻	yi fu	1
+🩱	yi pian shi	1
+🩱	yong yi	1
+🩱	yong zhuang	1
+🩱	you yong	1
+🩱	lian ti yong yi	1
+🩲	yi pian shi	1
+🩲	san jiao ku	1
+🩲	nei ku	1
+🩲	yong yi	1
+🩲	yong zhuang	1
+🩲	duan ku	1
+🩳	nei ku	1
+🩳	si jiao ku	1
+🩳	yong yi	1
+🩳	yong zhuang	1
+🩳	duan ku	1
+🩳	ku zi	1
 👙	san dian shi	1
 👙	bi ji ni	1
 👙	yong zhuang	1
@@ -3142,6 +3568,10 @@ use_preset_vocabulary: true
 🛍	guang jie	1
 🎒	shu bao	1
 🎒	bao	1
+🩴	liang xie	1
+🩴	jia zhi liang xie	1
+🩴	sha tan liang xie	1
+🩴	cao lv	1
 👞	nan xie	1
 👞	xie	1
 👟	pao xie	1
@@ -3162,6 +3592,11 @@ use_preset_vocabulary: true
 👡	liang xie	1
 👡	nv	1
 👡	nv shi liang xie	1
+🩰	wu dao	1
+🩰	wu xie	1
+🩰	ba lei wu xie	1
+🩰	zu jian xie	1
+🩰	tiao wu	1
 👢	nv	1
 👢	nv xue	1
 👢	xue zi	1
@@ -3177,6 +3612,12 @@ use_preset_vocabulary: true
 🎓	bi ye mao	1
 🧢	bang qiu mao	1
 🧢	ya she mao	1
+🪖	jun yong	1
+🪖	jun yong tou kui	1
+🪖	jun dui	1
+🪖	shi bing	1
+🪖	tou kui	1
+🪖	zhan shi	1
 ⛑	shi zi	1
 ⛑	tou kui	1
 ⛑	an quan mao	1
@@ -3284,6 +3725,9 @@ use_preset_vocabulary: true
 🎷	yan zou	1
 🎷	sa ke si guan	1
 🎷	yin yue	1
+🪗	liu jiao xing feng qin	1
+🪗	shou feng qin	1
+🪗	feng qin	1
 🎸	yue qi	1
 🎸	ji ta	1
 🎸	tan zou	1
@@ -3305,10 +3749,19 @@ use_preset_vocabulary: true
 🎻	ti qin	1
 🎻	yan zou	1
 🎻	yin yue	1
+🪕	xian yue qi	1
+🪕	tan zou	1
+🪕	ban zhuo qin	1
+🪕	yin yue	1
 🥁	yin yue	1
 🥁	gu	1
 🥁	gu sheng	1
 🥁	gu chui	1
+🪘	kang jia gu	1
+🪘	qiao	1
+🪘	jie zou	1
+🪘	chang gu	1
+🪘	gu	1
 📱	shou ti dian hua	1
 📱	shou ji	1
 📱	zhi neng shou ji	1
@@ -3487,6 +3940,11 @@ use_preset_vocabulary: true
 🏮	deng long	1
 🏮	hong deng long	1
 🏮	jie ri	1
+🪔	yin du you deng	1
+🪔	pai deng jie	1
+🪔	you	1
+🪔	deng	1
+🪔	di ya	1
 📔	feng mian	1
 📔	ben zi	1
 📔	bi ji	1
@@ -3572,6 +4030,12 @@ use_preset_vocabulary: true
 💰	qian	1
 💰	qian bao	1
 💰	qian dai	1
+🪙	ying bi	1
+🪙	cai fu	1
+🪙	jin	1
+🪙	jin shu	1
+🪙	qian	1
+🪙	yin	1
 💴	ri yuan	1
 💴	xian jin	1
 💴	huo bi	1
@@ -3615,15 +4079,6 @@ use_preset_vocabulary: true
 💹	huo bi sheng zhi tu biao	1
 💹	zou shi	1
 💹	qu shi xiang shang qie dai you ri yuan fu hao de tu biao	1
-💱	dui huan	1
-💱	wai hui	1
-💱	huan hui	1
-💱	hui lv	1
-💱	liu tong	1
-💱	huo bi dui huan	1
-💲	mei yuan	1
-💲	mei yuan fu hao	1
-💲	huo bi	1
 ✉	xin jian	1
 ✉	xin feng	1
 ✉	xin xi	1
@@ -3865,6 +4320,11 @@ use_preset_vocabulary: true
 🔨	za	1
 🔨	tie chui	1
 🔨	chui zi	1
+🪓	qie	1
+🪓	pi	1
+🪓	fu tou	1
+🪓	mu tou	1
+🪓	kan	1
 ⛏	gong ju	1
 ⛏	wa jue	1
 ⛏	cai kuang	1
@@ -3894,6 +4354,10 @@ use_preset_vocabulary: true
 🔫	shou qiang	1
 🔫	qiang	1
 🔫	wu qi	1
+🪃	fan dan	1
+🪃	hui tan	1
+🪃	hui xuan biao	1
+🪃	ao da li ya	1
 🏹	she shou	1
 🏹	she jian	1
 🏹	gong	1
@@ -3903,9 +4367,17 @@ use_preset_vocabulary: true
 🛡	dun	1
 🛡	dun pai	1
 🛡	fang yu	1
+🪚	gong ju	1
+🪚	mu jiang	1
+🪚	mu gong ju	1
+🪚	mu cai	1
+🪚	ju	1
 🔧	gong ju	1
 🔧	ban shou	1
 🔧	luo si ban shou	1
+🪛	gong ju	1
+🪛	luo si	1
+🪛	luo si dao	1
 🔩	gong ju	1
 🔩	luo si	1
 🔩	luo mao	1
@@ -3927,6 +4399,10 @@ use_preset_vocabulary: true
 ⚖	tian ping	1
 ⚖	zheng yi	1
 ⚖	fa lv	1
+🦯	guai zhang	1
+🦯	wu zhang ai	1
+🦯	mang	1
+🦯	mang zhang	1
 🔗	wang zhi	1
 🔗	lian jie	1
 🔗	lian tiao	1
@@ -3935,6 +4411,11 @@ use_preset_vocabulary: true
 ⛓	lian	1
 ⛓	lian tiao	1
 ⛓	suo lian	1
+🪝	mai dian	1
+🪝	zhua	1
+🪝	gua gou	1
+🪝	qu xian	1
+🪝	gou zhuang wu	1
 🧰	gong ju	1
 🧰	gong ju xiang	1
 🧰	ji xiu	1
@@ -3943,6 +4424,11 @@ use_preset_vocabulary: true
 🧲	ci xing	1
 🧲	ci tie	1
 🧲	ma ti tie	1
+🪜	tai jie	1
+🪜	ti zi	1
+🪜	ti ji	1
+🪜	heng dang	1
+🪜	pa	1
 ⚗	jing hua	1
 ⚗	hua xue	1
 ⚗	shi yan	1
@@ -3990,17 +4476,47 @@ use_preset_vocabulary: true
 💉	zhu she qi	1
 💉	zhen tou	1
 💉	zhen tong	1
+🩸	yi liao	1
+🩸	yue jing	1
+🩸	xian xue	1
+🩸	jing xue	1
+🩸	xue di	1
+🩸	shu xue	1
 💊	chi yao	1
 💊	zhi liao	1
 💊	yao	1
 💊	yao wan	1
 💊	yao wu	1
+🩹	ok beng	1
+🩹	shang kou	1
+🩹	chuang ke tie	1
+🩹	beng dai	1
+🩹	jiao bu	1
+🩺	yi sheng	1
+🩺	yi liao	1
+🩺	ting zhen qi	1
+🩺	xin zang	1
+🩺	xin tiao	1
+🩺	zhen duan	1
 🚪	chu ru kou	1
 🚪	da men	1
 🚪	wu men	1
 🚪	fang men	1
 🚪	fang jian	1
 🚪	men	1
+🛗	sheng jiang ji	1
+🛗	ke da xing	1
+🛗	dian ti	1
+🪞	fan she	1
+🪞	fan she jing	1
+🪞	kui jing	1
+🪞	jing zi	1
+🪟	kai chuang	1
+🪟	xin xian kong qi	1
+🪟	jing se	1
+🪟	chuang hu	1
+🪟	chuang kuang	1
+🪟	tou ming	1
 🛏	bin guan	1
 🛏	chuang	1
 🛏	chuang dian	1
@@ -4012,11 +4528,19 @@ use_preset_vocabulary: true
 🛋	sha fa he deng	1
 🛋	deng	1
 🛋	yue du	1
+🪑	zuo	1
+🪑	zuo wei	1
+🪑	yi zi	1
+🪑	yi bei	1
 🚽	wc	1
 🚽	wei sheng jian	1
 🚽	ce suo	1
 🚽	xi shou jian	1
 🚽	ma tong	1
+🪠	xi li	1
+🪠	shui guan gong	1
+🪠	huo sai	1
+🪠	ma tong	1
 🚿	pen tou	1
 🚿	pen shui	1
 🚿	shui	1
@@ -4028,6 +4552,15 @@ use_preset_vocabulary: true
 🛁	xi zao	1
 🛁	yu gang	1
 🛁	zao pen	1
+🪤	bu shu qi	1
+🪤	you er	1
+🪤	xian jin	1
+🪒	dao	1
+🪒	gua	1
+🪒	ti xu dao	1
+🪒	mao	1
+🪒	hu zi	1
+🪒	feng li	1
 🧴	ru ye	1
 🧴	ru ye ping	1
 🧴	hu fu shuang	1
@@ -4047,12 +4580,24 @@ use_preset_vocabulary: true
 🧻	wei sheng zhi	1
 🧻	juan zhi	1
 🧻	zhi jin	1
+🪣	da tong	1
+🪣	mu tong	1
+🪣	tong	1
+🪣	shui tong	1
+🪣	gang	1
 🧼	sha jun	1
 🧼	xi shou	1
 🧼	qing jie	1
 🧼	zao	1
 🧼	fei zao pao	1
 🧼	fei zao he	1
+🪥	shua	1
+🪥	wei sheng	1
+🪥	qing jie	1
+🪥	yu shi	1
+🪥	ya shua	1
+🪥	ya ke	1
+🪥	ya chi	1
 🧽	xi shui	1
 🧽	hai mian	1
 🧽	qing jie	1
@@ -4075,6 +4620,10 @@ use_preset_vocabulary: true
 ⚰	ling jiu	1
 ⚰	zang li	1
 ⚰	ling mu	1
+🪦	gong mu	1
+🪦	mu yuan	1
+🪦	mu di	1
+🪦	mu bei	1
 ⚱	weng	1
 ⚱	gang	1
 ⚱	zang li	1
@@ -4086,6 +4635,13 @@ use_preset_vocabulary: true
 🗿	mo ai	1
 🗿	mo ai shi xiang	1
 🗿	mao ai	1
+🪧	bu gao	1
+🪧	biao zhi	1
+🪧	biao yu pai	1
+🪧	hai bao	1
+🪧	shi wei	1
+🪧	jiu cha dui biao yu pai	1
+🪧	jing jie shao	1
 🏧	qu kuan ji	1
 🏧	gui yuan ji	1
 🏧	biao zhi	1
@@ -4194,10 +4750,12 @@ use_preset_vocabulary: true
 ↘	you xia jian tou	1
 ↘	fang xiang	1
 ↘	biao zhi	1
-⬇	dong nan	1
+⬇	xiang xia	1
 ⬇	xiang xia jian tou	1
-⬇	fang xiang	1
-⬇	biao zhi	1
+⬇	ji ben	1
+⬇	fang wei	1
+⬇	zheng nan	1
+⬇	jian tou	1
 ↙	zuo xia jian tou	1
 ↙	fang xiang	1
 ↙	biao zhi	1
@@ -4248,7 +4806,7 @@ use_preset_vocabulary: true
 🔚	jie shu	1
 🔚	jie shu jian tou	1
 🔛	on	1
-🔛	on!  jian tou	1
+🔛	on  jian tou	1
 🔛	kai shi	1
 🔛	biao zhi	1
 🔛	jian tou	1
@@ -4428,12 +4986,70 @@ use_preset_vocabulary: true
 📴	guan bi	1
 📴	shou ji	1
 📴	shou ji guan ji	1
-⚕	yi liao biao zhi	1
-⚕	she zhang	1
-⚕	a si ke lei bi e si	1
+♀	nv xing fu hao	1
+♀	fu hao	1
+♀	ci xing	1
+♂	nan xing fu hao	1
+♂	fu hao	1
+♂	xiong xing	1
+⚧	kua xing bie	1
+⚧	kua xing bie fu hao	1
+✖	cheng	1
+✖	cheng hao	1
+✖	qu xiao	1
+✖	xiang cheng	1
+✖	fu hao	1
+➕	jia hao	1
+➕	shi zi	1
+➕	shu xue	1
+➕	xiang jia	1
+➕	fu hao	1
+➖	jian hao	1
+➖	shu xue	1
+➖	heng xian	1
+➖	fu hao	1
+➗	shu xue	1
+➗	xiang chu	1
+➗	fu hao	1
+➗	chu	1
+➗	chu hao	1
 ♾	yu zhou	1
 ♾	wu xian	1
 ♾	yong heng	1
+‼	liang ge	1
+‼	shuang gan tan hao	1
+‼	chi jing	1
+‼	biao dian fu hao	1
+⁉	chi jing	1
+⁉	gan tan yi wen hao	1
+⁉	biao dian fu hao	1
+⁉	wen hao	1
+❓	wei shen me	1
+❓	biao dian fu hao	1
+❓	wen hao	1
+❔	wei shen me	1
+❔	biao dian fu hao	1
+❔	bai se wen hao	1
+❔	kong xin	1
+❕	chi jing	1
+❕	biao dian fu hao	1
+❕	bai se gan tan hao	1
+❕	kong xin	1
+❗	chi jing	1
+❗	gan tan hao	1
+❗	biao dian fu hao	1
+💱	dui huan	1
+💱	wai hui	1
+💱	huan hui	1
+💱	hui lv	1
+💱	liu tong	1
+💱	huo bi dui huan	1
+💲	mei yuan	1
+💲	mei yuan fu hao	1
+💲	huo bi	1
+⚕	yi liao biao zhi	1
+⚕	she zhang	1
+⚕	a si ke lei bi e si	1
 ♻	zai li yong	1
 ♻	hui shou biao zhi	1
 ♻	xun huan	1
@@ -4471,10 +5087,6 @@ use_preset_vocabulary: true
 ✔	da gou	1
 ✔	zheng que	1
 ✔	fu hao	1
-✖	cheng hao	1
-✖	qu xiao	1
-✖	xiang cheng	1
-✖	fu hao	1
 ❌	jiao cha	1
 ❌	cha hao	1
 ❌	qu xiao	1
@@ -4483,19 +5095,6 @@ use_preset_vocabulary: true
 ❎	cha hao an niu	1
 ❎	qu xiao	1
 ❎	fang xing	1
-➕	jia hao	1
-➕	shi zi	1
-➕	shu xue	1
-➕	xiang jia	1
-➕	fu hao	1
-➖	jian hao	1
-➖	shu xue	1
-➖	heng xian	1
-➖	fu hao	1
-➗	shu xue	1
-➗	xiang chu	1
-➗	fu hao	1
-➗	chu hao	1
 ➰	dan huan	1
 ➰	juan qu huan	1
 ➰	biao zhi	1
@@ -4510,30 +5109,6 @@ use_preset_vocabulary: true
 ❇	huo hua	1
 ❇	yan huo	1
 ❇	shan yao	1
-‼	！！	1
-‼	liang ge	1
-‼	shuang gan tan hao	1
-‼	chi jing	1
-‼	biao dian fu hao	1
-⁉	！？	1
-⁉	chi jing	1
-⁉	gan tan yi wen hao	1
-⁉	biao dian fu hao	1
-⁉	wen hao	1
-❓	wei shen me	1
-❓	biao dian fu hao	1
-❓	wen hao	1
-❔	wei shen me	1
-❔	biao dian fu hao	1
-❔	bai se wen hao	1
-❔	kong xin	1
-❕	chi jing	1
-❕	biao dian fu hao	1
-❕	bai se gan tan hao	1
-❕	kong xin	1
-❗	chi jing	1
-❗	gan tan hao	1
-❗	biao dian fu hao	1
 🔠	abcd	1
 🔠	da zi	1
 🔠	la ding wen	1
@@ -4692,23 +5267,78 @@ use_preset_vocabulary: true
 🔴	hong	1
 🔴	hong se	1
 🔴	hong se yuan	1
+🟠	yuan	1
+🟠	quan	1
+🟠	cheng	1
+🟠	cheng se yuan	1
+🟡	yuan	1
+🟡	quan	1
+🟡	huang	1
+🟡	huang se yuan	1
+🟢	yuan	1
+🟢	quan	1
+🟢	lv	1
+🟢	lv se yuan	1
 🔵	quan	1
 🔵	lan	1
 🔵	lan se yuan	1
-⚪	quan	1
-⚪	bai	1
-⚪	bai se yuan	1
+🟣	yuan	1
+🟣	quan	1
+🟣	zi	1
+🟣	zi se yuan	1
+🟤	yuan	1
+🟤	quan	1
+🟤	zong	1
+🟤	zong se yuan	1
 ⚫	quan	1
 ⚫	hei	1
 ⚫	hei se yuan	1
-⬜	da	1
-⬜	zheng fang xing	1
-⬜	bai xian da fang kuang	1
-⬜	bai se	1
+⚪	quan	1
+⚪	bai	1
+⚪	bai se yuan	1
+🟥	fang kuai	1
+🟥	fang kuang	1
+🟥	zheng fang xing	1
+🟥	hong	1
+🟥	hong se fang kuai	1
+🟧	fang kuai	1
+🟧	fang kuang	1
+🟧	cheng	1
+🟧	cheng se fang kuai	1
+🟧	zheng fang xing	1
+🟨	fang kuai	1
+🟨	fang kuang	1
+🟨	zheng fang xing	1
+🟨	huang	1
+🟨	huang se fang kuai	1
+🟩	fang kuai	1
+🟩	fang kuang	1
+🟩	zheng fang xing	1
+🟩	lv	1
+🟩	lv se fang kuai	1
+🟦	fang kuai	1
+🟦	fang kuang	1
+🟦	zheng fang xing	1
+🟦	lan	1
+🟦	lan se fang kuai	1
+🟪	fang kuai	1
+🟪	fang kuang	1
+🟪	zheng fang xing	1
+🟪	zi	1
+🟪	zi se fang kuai	1
+🟫	fang kuai	1
+🟫	fang kuang	1
+🟫	zong	1
+🟫	zong se fang kuai	1
+🟫	zheng fang xing	1
 ⬛	da	1
 ⬛	zheng fang xing	1
 ⬛	hei xian da fang kuang	1
 ⬛	hei se	1
+⬜	da	1
+⬜	zheng fang xing	1
+⬜	bai xian da fang kuang	1
+⬜	bai se	1
 ◼	zhong deng	1
 ◼	zheng fang xing	1
 ◼	hei se	1
@@ -4717,21 +5347,21 @@ use_preset_vocabulary: true
 ◻	zheng fang xing	1
 ◻	bai se	1
 ◻	bai se zhong fang kuai	1
-◽	zhong xiao   zheng fang xing	1
-◽	bai se	1
-◽	bai se zhong xiao fang kuai	1
 ◾	zhong xiao	1
 ◾	zheng fang xing	1
 ◾	hei se	1
 ◾	hei se zhong xiao fang kuai	1
-▫	xiao	1
-▫	zheng fang xing	1
-▫	bai se	1
-▫	bai se xiao fang kuai	1
+◽	zhong xiao   zheng fang xing	1
+◽	bai se	1
+◽	bai se zhong xiao fang kuai	1
 ▪	xiao	1
 ▪	zheng fang xing	1
 ▪	hei se	1
 ▪	hei se xiao fang kuai	1
+▫	xiao	1
+▫	zheng fang xing	1
+▫	bai se	1
+▫	bai se xiao fang kuai	1
 🔶	da	1
 🔶	fang pian	1
 🔶	ju huang se	1
@@ -4768,13 +5398,6 @@ use_preset_vocabulary: true
 🔘	yuan xin	1
 🔘	an jian	1
 🔘	xuan zhong	1
-🔲	an niu	1
-🔲	hei xian fang xing an niu	1
-🔲	hei xian zheng fang xing an niu	1
-🔲	hei se fang xing an niu	1
-🔲	hei se zheng fang xing an niu	1
-🔲	hei bian xian fang xing an niu	1
-🔲	hei bian xian zheng fang xing an niu	1
 🔳	an niu	1
 🔳	bai xian fang xing an niu	1
 🔳	bai xian zheng fang xing an niu	1
@@ -4782,6 +5405,13 @@ use_preset_vocabulary: true
 🔳	bai se zheng fang xing an niu	1
 🔳	bai bian xian fang xing an niu	1
 🔳	bai bian xian zheng fang xing an niu	1
+🔲	an niu	1
+🔲	hei xian fang xing an niu	1
+🔲	hei xian zheng fang xing an niu	1
+🔲	hei se fang xing an niu	1
+🔲	hei se zheng fang xing an niu	1
+🔲	hei bian xian fang xing an niu	1
+🔲	hei bian xian zheng fang xing an niu	1
 🏁	ge zi qi	1
 🏁	zhong dian qi	1
 🚩	san jiao qi	1
@@ -4807,309 +5437,30 @@ use_preset_vocabulary: true
 🏳‍🌈	duo se	1
 🏳‍🌈	cai hong qi	1
 🏳‍🌈	qi zhi	1
+🏳‍⚧	qi zhi	1
+🏳‍⚧	kua xing bie	1
+🏳‍⚧	kua xing bie qi	1
 🏴‍☠	lve duo	1
 🏴‍☠	hai shang	1
 🏴‍☠	hai dao qi	1
 🏴‍☠	cai bao	1
 🏴‍☠	ku lou	1
-🛕	fo si	1
-🛕	fo jiao	1
-🛕	yin du si miao	1
-🛕	si miao	1
-🛕	si yuan	1
-🛕	miao yu	1
-🛺	san jiao ji	1
-🛺	san beng zi	1
-🛺	san lun mo tuo che	1
-🛺	du du che	1
-🛺	zi dong ren li che	1
-🟠	yuan	1
-🟠	quan	1
-🟠	cheng	1
-🟠	cheng se yuan	1
-🟡	yuan	1
-🟡	quan	1
-🟡	huang	1
-🟡	huang se yuan	1
-🟢	yuan	1
-🟢	quan	1
-🟢	lv	1
-🟢	lv se yuan	1
-🟣	yuan	1
-🟣	quan	1
-🟣	zi	1
-🟣	zi se yuan	1
-🟤	yuan	1
-🟤	quan	1
-🟤	zong	1
-🟤	zong se yuan	1
-🟥	fang kuai	1
-🟥	fang kuang	1
-🟥	zheng fang xing	1
-🟥	hong	1
-🟥	hong se fang kuai	1
-🟦	fang kuai	1
-🟦	fang kuang	1
-🟦	zheng fang xing	1
-🟦	lan	1
-🟦	lan se fang kuai	1
-🟧	fang kuai	1
-🟧	fang kuang	1
-🟧	cheng	1
-🟧	cheng se fang kuai	1
-🟧	zheng fang xing	1
-🟨	fang kuai	1
-🟨	fang kuang	1
-🟨	zheng fang xing	1
-🟨	huang	1
-🟨	huang se fang kuai	1
-🟩	fang kuai	1
-🟩	fang kuang	1
-🟩	zheng fang xing	1
-🟩	lv	1
-🟩	lv se fang kuai	1
-🟪	fang kuai	1
-🟪	fang kuang	1
-🟪	zheng fang xing	1
-🟪	zi	1
-🟪	zi se fang kuai	1
-🟫	fang kuai	1
-🟫	fang kuang	1
-🟫	zong	1
-🟫	zong se fang kuai	1
-🟫	zheng fang xing	1
-🤍	xin	1
-🤍	xin xing	1
-🤍	bai	1
-🤍	bai xin	1
-🤎	xin	1
-🤎	xin xing	1
-🤎	zong	1
-🤎	zong xin	1
-🤏	yi dian	1
-🤏	xiao	1
-🤏	shao liang	1
-🤏	nie he de shou shi	1
-🤿	fu qian	1
-🤿	shen qian	1
-🤿	qian shui	1
-🤿	qian shui mian zhao	1
-🥱	he qian	1
-🥱	ha qian	1
-🥱	kun	1
-🥱	da he qian	1
-🥱	wu liao	1
-🥱	lei	1
-🥻	yin du	1
-🥻	pi jian	1
-🥻	sha li	1
-🥻	yi fu	1
-🦥	man	1
-🦥	lan	1
-🦥	shu lan	1
-🦥	pa shu	1
-🦥	chi huan	1
-🦦	dong wu	1
-🦦	bu yu	1
-🦦	shui ta	1
-🦦	ta	1
-🦦	you	1
-🦧	xing xing	1
-🦧	hou	1
-🦧	yuan	1
-🦧	hong mao xing xing	1
-🦨	xun	1
-🦨	chou	1
-🦨	chou you	1
-🦨	you	1
-🦩	huo lie niao	1
-🦩	re dai	1
-🦩	yan li	1
-🦪	hai xian	1
-🦪	mu li	1
-🦪	zhen zhu	1
-🦪	sheng hao	1
-🦮	dao mang quan	1
-🦮	zhi yin	1
-🦮	wu zhang ai	1
-🦮	mang	1
-🦯	guai zhang	1
-🦯	wu zhang ai	1
-🦯	mang	1
-🦯	mang zhang	1
-🦺	an quan	1
-🦺	jiu sheng yi	1
-🦺	jin ji	1
-🦺	bei xin	1
-🦺	tao sheng	1
-🦻	zhu ting qi	1
-🦻	ting li zhang ai	1
-🦻	shi cong	1
-🦻	dai zhu ting qi de er duo	1
-🦻	wu zhang ai	1
-🦻	long	1
-🦼	wu zhang ai	1
-🦼	dian dong lun yi	1
-🦼	lun yi	1
-🦽	shou dong lun yi	1
-🦽	wu zhang ai	1
-🦽	lun yi	1
-🦾	yi zhi	1
-🦾	shou bi	1
-🦾	wu zhang ai	1
-🦾	ji xie shou bi	1
-🦿	yi zhi	1
-🦿	wu zhang ai	1
-🦿	ji xie tui	1
-🦿	tui	1
-🧃	xi guan	1
-🧃	guo zhi he	1
-🧃	he zhuang	1
-🧃	yin liao he	1
-🧄	zuo liao	1
-🧄	da suan	1
-🧄	suan	1
-🧄	suan tou	1
-🧄	tiao wei	1
-🧅	zuo liao	1
-🧅	yang cong	1
-🧅	tiao wei	1
-🧆	zhong dong shu cai qiu	1
-🧆	you zha ying zui dou bing	1
-🧆	zha dou wan zi	1
-🧆	rou wan	1
-🧆	ying zui dou	1
-🧇	hua fu bing	1
-🧇	ge zi bing	1
-🧇	dian xin	1
-🧇	kao	1
-🧇	wo fu bing	1
-🧈	ru zhi pin	1
-🧈	niu nai	1
-🧈	huang you	1
-🧉	nan mei	1
-🧉	cha	1
-🧉	cao ben	1
-🧉	yin liao	1
-🧉	ma dai cha	1
-🧊	bing kuai	1
-🧊	bing shan	1
-🧊	leng que	1
-🧊	leng yin	1
-🧍	zhan zhe	1
-🧍	zhan li	1
-🧍	zhan li zhe	1
-🧍‍♀	nv	1
-🧍‍♀	zhan zhe	1
-🧍‍♀	zhan li	1
-🧍‍♀	zhan li de nv ren	1
-🧍‍♂	nan	1
-🧍‍♂	zhan zhe	1
-🧍‍♂	zhan li	1
-🧍‍♂	zhan li de nan ren	1
-🧎	xia gui zhe	1
-🧎	gui xia	1
-🧎	gui zuo	1
-🧎‍♀	xia gui	1
-🧎‍♀	nv	1
-🧎‍♀	gui xia de nv ren	1
-🧎‍♀	gui zuo	1
-🧎‍♂	xia gui	1
-🧎‍♂	nan	1
-🧎‍♂	gui xia de nan ren	1
-🧎‍♂	gui zuo	1
-🧏	ting li	1
-🧏	shi cong zhe	1
-🧏	wu zhang ai	1
-🧏	er duo	1
-🧏	long	1
-🧏‍♀	ting li zhang ai	1
-🧏‍♀	shi cong de nv ren	1
-🧏‍♀	nv	1
-🧏‍♀	er duo	1
-🧏‍♀	long	1
-🧏‍♂	ting li zhang ai	1
-🧏‍♂	shi cong de nan ren	1
-🧏‍♂	nan	1
-🧏‍♂	er duo	1
-🧏‍♂	long	1
-🩰	wu dao	1
-🩰	wu xie	1
-🩰	ba lei wu xie	1
-🩰	zu jian xie	1
-🩰	tiao wu	1
-🩱	yi pian shi	1
-🩱	yong yi	1
-🩱	yong zhuang	1
-🩱	you yong	1
-🩱	lian ti yong yi	1
-🩲	yi pian shi	1
-🩲	san jiao ku	1
-🩲	nei ku	1
-🩲	yong yi	1
-🩲	yong zhuang	1
-🩲	duan ku	1
-🩳	nei ku	1
-🩳	si jiao ku	1
-🩳	yong yi	1
-🩳	yong zhuang	1
-🩳	duan ku	1
-🩳	ku zi	1
-🩸	yi liao	1
-🩸	yue jing	1
-🩸	xian xue	1
-🩸	jing xue	1
-🩸	xue di	1
-🩸	shu xue	1
-🩹	ok beng	1
-🩹	shang kou	1
-🩹	chuang ke tie	1
-🩹	beng dai	1
-🩹	jiao bu	1
-🩺	yi sheng	1
-🩺	yi liao	1
-🩺	ting zhen qi	1
-🩺	xin zang	1
-🩺	xin tiao	1
-🩺	zhen duan	1
-🪀	shang xia qi luo	1
-🪀	you you qiu	1
-🪀	wan ju	1
-🪁	ao xiang	1
-🪁	feng zheng	1
-🪁	fei xiang	1
-🪂	fan san	1
-🪂	xuan gua hua xiang	1
-🪂	hua xiang	1
-🪂	hua xiang san	1
-🪂	tiao san	1
-🪂	jiang luo san	1
-🪐	tu xing	1
-🪐	you huan xing xing	1
-🪑	zuo	1
-🪑	zuo wei	1
-🪑	yi zi	1
-🪑	yi bei	1
-🪒	dao	1
-🪒	gua	1
-🪒	ti xu dao	1
-🪒	mao	1
-🪒	hu zi	1
-🪒	feng li	1
-🪓	qie	1
-🪓	pi	1
-🪓	fu tou	1
-🪓	mu tou	1
-🪓	kan	1
-🪔	yin du you deng	1
-🪔	pai deng jie	1
-🪔	you	1
-🪔	deng	1
-🪔	di ya	1
-🪕	xian yue qi	1
-🪕	tan zou	1
-🪕	ban zhuo qin	1
-🪕	yin yue	1
+🧑‍🦰	xing bie zhong li	1
+🧑‍🦰	xing ge bu ming	1
+🧑‍🦰	cheng ren	1
+🧑‍🦰	hong fa	1
+🧑‍🦱	juan fa	1
+🧑‍🦱	xing bie zhong li	1
+🧑‍🦱	xing ge bu ming	1
+🧑‍🦱	cheng ren	1
+🧑‍🦳	xing bie zhong li	1
+🧑‍🦳	xing ge bu ming	1
+🧑‍🦳	cheng ren	1
+🧑‍🦳	bai fa	1
+🧑‍🦲	xing bie zhong li	1
+🧑‍🦲	xing ge bu ming	1
+🧑‍🦲	cheng ren	1
+🧑‍🦲	tu ding	1
 👨‍🦰	nan	1
 👨‍🦰	nan ren	1
 👨‍🦰	hong fa	1
