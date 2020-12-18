@@ -89,7 +89,7 @@ Poetry Snapshot:
   - `luna_pinyin.mingxing.dict.yaml` 明星（搜狗）
      - https://pinyin.sogou.com/dict/detail/index/15209
   - `luna_pinyin.zhongguolishicihuidaquan.dict.yaml` 中国历史词汇大全（搜狗）
-     - https://pinyin.sogou.com/dict/detail/index/19430
+	 - https://pinyin.sogou.com/dict/detail/index/15130
   - `luna_pinyin.kaifadashenzhuanyongciku.dict.yaml` 开发大神专用词库（搜狗，0.3k，manual updated）
      - https://pinyin.sogou.com/dict/detail/index/75228
   - `luna_pinyin.emoji.cldr.dict.yaml`：Emoji parsed from [jolicode/emoji-search: Emoji synonyms to build your own emoji-capable search engine (elasticsearch, solr)](https://github.com/jolicode/emoji-search)（强烈推荐）
