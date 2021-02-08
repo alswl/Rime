@@ -2,14 +2,19 @@ patch:
   app_options:
     org.vim.MacVim:
       no_inline: true
+      vim_mode: true
     uk.foon.Neovim:
       no_inline: true
+      vim_mode: true
     com.qvacua.VimR:
       no_inline: true
+      vim_mode: true
     com.googlecode.iterm2:
       no_inline: true
+      vim_mode: true
     com.apple.Terminal:
       no_inline: true
+      vim_mode: true
     #com.apple.iWork.Numbers:
       #no_inline: true
     com.alfredapp.Alfred:
