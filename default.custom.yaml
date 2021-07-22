@@ -7,7 +7,7 @@ patch:
     #- schema: luna_pinyin_fluency
     # - schema: combo_pinyin
     # - schema: wubi86
-    - schema: flypy_simple
+    # - schema: flypy_simple
     - schema: stroke
   ascii_composer:
     good_old_caps_lock: true
