@@ -22,6 +22,8 @@ patch:
       #no_inline: true
     com.alfredapp.Alfred:
       ascii_mode: true
+    com.jetbrains.intellij:
+      vim_mode: true
     #com.runningwithcrayons.Alfred-2:
       #ascii_mode: true
   style:
