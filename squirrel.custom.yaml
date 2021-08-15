@@ -24,6 +24,8 @@ patch:
       ascii_mode: true
     com.jetbrains.intellij:
       vim_mode: true
+    com.jetbrains.datagrip:
+      vim_mode: true
     #com.runningwithcrayons.Alfred-2:
       #ascii_mode: true
   style:
