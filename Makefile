@@ -33,9 +33,7 @@ VERSION ?= v$(MAJOR_VERSION).$(MINOR_VERSION).$(PATCH_VERSION)-$(BUILD_VERSION)
 # Define all targets. At least the following commands are required:
 #
 
-.PHONY: lint test build clean
-
-all: lint test build
+.PHONY: download download-wangluoliuxingxinci download-kaifadashenzhuanyongciku
 
 download: 
 	cat $(dict) | ggrep -v -P "\t" | sponge $(dict)
