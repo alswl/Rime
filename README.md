@@ -92,7 +92,7 @@ Poetry Snapshot:
 	 - https://pinyin.sogou.com/dict/detail/index/15130
   - `luna_pinyin.kaifadashenzhuanyongciku.dict.yaml` 开发大神专用词库（搜狗，0.3k，manual updated）
      - https://pinyin.sogou.com/dict/detail/index/75228
-  - `luna_pinyin.emoji.cldr.dict.yaml`：Emoji parsed from [jolicode/emoji-search: Emoji synonyms to build your own emoji-capable search engine (elasticsearch, solr)](https://github.com/jolicode/emoji-search)（强烈推荐）
+  - `luna_pinyin.emoji.cldr.dict.yaml`：Emoji parsed from [jolicode/emoji-search: Emoji synonyms to build your own emoji-capable search engine (elasticsearch, solr)](https://github.com/jolicode/emoji-search)（强烈推荐 manual updated）
     - include emoji 7.0, eg. 🏎️ (sai che)
     - include emoji 8.0, eg. 🦄️ (du jiao shou)
     - include emoji 9.0, eg. 🤡 (xiao chou)

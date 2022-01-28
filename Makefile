@@ -52,3 +52,9 @@ download-kaifadashenzhuanyongciku: id = 75228
 download-kaifadashenzhuanyongciku: dict = luna_pinyin.kaifadashenzhuanyongciku.dict.yaml
 download-kaifadashenzhuanyongciku: name = 开发大神专用词库【官方推荐】
 download-kaifadashenzhuanyongciku: download
+
+
+download-mingxing: id = 15209
+download-mingxing: dict = luna_pinyin.mingxing.dict.yaml
+download-mingxing: name = 明星【官方推荐】
+download-mingxing: download
