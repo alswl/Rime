@@ -4,7 +4,7 @@
 
 ---
 name: luna_pinyin.mingxing
-version: "2016.06.30"
+version: "2022-01-29"
 sort: by_weight
 use_preset_vocabulary: false
 ...
@@ -976,7 +976,6 @@ use_preset_vocabulary: false
 法蓝	fa lan
 法兰克辛纳区	fa lan ke xin na qu
 法兰茜斯嘉	fa lan qian si jia
-范冰冰	fan bing bing
 樊波	fan bo
 范彩儿	fan cai er
 范成玉	fan cheng yu
@@ -5658,7 +5657,6 @@ use_preset_vocabulary: false
 赵姝	zhao shu
 赵颂茹	zhao song ru
 赵松庭	zhao song ting
-赵薇	zhao wei
 赵文慧	zhao wen hui
 赵文卓	zhao wen zhuo
 赵学而	zhao xue er
@@ -5733,7 +5731,6 @@ use_preset_vocabulary: false
 郑柔美	zheng rou mei
 郑少秋	zheng shao qiu
 郑晟	zheng sheng
-郑爽	zheng shuang
 郑素敏	zheng su min
 郑伟康	zheng wei kang
 郑希怡	zheng xi yi
