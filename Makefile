@@ -26,8 +26,8 @@ MAJOR_VERSION = 1
 MINOR_VERSION = 0
 PATCH_VERSION = 0
 BUILD_VERSION = $(COMMIT)
-GO_MOD_VERSION = $(shell cat go.mod | sha256sum | cut -c-6)
 VERSION ?= v$(MAJOR_VERSION).$(MINOR_VERSION).$(PATCH_VERSION)-$(BUILD_VERSION)
+ASCEL_BIN := ${HOME}/dev/myproject/ascel/ascel.py
 
 #
 # Define all targets. At least the following commands are required:
