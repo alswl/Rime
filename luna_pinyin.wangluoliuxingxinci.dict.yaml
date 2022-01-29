@@ -6,7 +6,7 @@
 
 ---
 name: luna_pinyin.wangluoliuxingxinci
-version: ""
+version: "2022.01.28"
 sort: by_weight
 use_preset_vocabulary: false
 ...
