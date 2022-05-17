@@ -1,6 +1,6 @@
 ---
 name: luna_pinyin.custom
-version: "2018.10.05"
+version: "2022.05.17"
 sort: by_weight
 use_preset_vocabulary: true
 import_tables:
@@ -22,6 +22,7 @@ import_tables:
     - luna_pinyin.emoji
     - luna_pinyin.emoji.apple
     - luna_pinyin.emoji.cldr
+    - luna_pinyin.emoji.unicode-cldr
     - luna_pinyin.emoji.scomper
     - luna_pinyin.kaomoji
 ...
