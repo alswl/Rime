@@ -1,3 +1,16 @@
+# Rime dictionary
+# encoding: utf-8
+# Souce: https://pinyin.sogou.com/dict/detail/index/4
+#
+# make download-wangluoliuxingxinci
+
+---
+name: luna_pinyin.wangluoliuxingxinci
+version: "2022.08.26"
+sort: by_weight
+use_preset_vocabulary: false
+...
+
 阿敖	a ao
 阿巴巴	a ba ba
 阿巴巴巴	a ba ba ba
