@@ -27,7 +27,7 @@ MINOR_VERSION = 0
 PATCH_VERSION = 0
 BUILD_VERSION = $(COMMIT)
 VERSION ?= v$(MAJOR_VERSION).$(MINOR_VERSION).$(PATCH_VERSION)-$(BUILD_VERSION)
-ASCEL_BIN := ${HOME}/dev/myproject/ascel/ascel.py
+ASCEL_BIN := ${HOME}/dev/my/ascel/ascel.py
 
 #
 # Define all targets. At least the following commands are required:
@@ -37,10 +37,10 @@ ASCEL_BIN := ${HOME}/dev/myproject/ascel/ascel.py
 
 download: 
 	cat $(dict) | ggrep -v -P "\t" | sponge $(dict)
-	wget 'https://pinyin.sogou.com/d/dict/download_cell.php?id=$(id)&name=$(name)'
+	wget 'https://pinyin.sogou.com/d/dict/download_cell.php?id=$(id)&name=$(name)' -O $(name).scel
 	python $(ASCEL_BIN) $(name).scel >> $(dict)
 	rm $(name).scel
-	version=$(TODAY_DOT); gsed -i -E "s/^version: \".+\"$$/version: \"$$version\"/g" $(dict)
+	version=$(TODAY_DOT); sed -i -E "s/^version: \".+\"$$/version: \"$$version\"/g" $(dict)
 
 download-wangluoliuxingxinci: id = 4
 download-wangluoliuxingxinci: dict = luna_pinyin.wangluoliuxingxinci.dict.yaml
