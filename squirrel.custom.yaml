@@ -14,10 +14,10 @@ patch:
       vim_mode: true
     com.googlecode.iterm2:
       no_inline: true
-      vim_mode: true
+      vim_mode: false
     com.apple.Terminal:
       no_inline: true
-      vim_mode: true
+      vim_mode: false
     #com.apple.iWork.Numbers:
       #no_inline: true
     com.alfredapp.Alfred:
