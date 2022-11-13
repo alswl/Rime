@@ -24,7 +24,7 @@
 # ' > luna_pinyin.emoji.cldr.dict.new.yaml
 
 ---
-name: luna_pinyin.emoji.cldr
+name: luna_pinyin.emoji.unicode-cldr
 version: "2022.05.17"
 sort: by_weight
 use_preset_vocabulary: true
