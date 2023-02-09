@@ -14,6 +14,11 @@
 #
 
 SHELL := /bin/bash
+# GREP is grep, using grep in Linux, ggrep in macOS
+GREP := grep
+ifeq ($(shell uname),Darwin)
+GREP := ggrep
+endif
 NOW_SHORT := $(shell date +%Y%m%d%H%M)
 
 # Git commit sha.
@@ -36,7 +41,7 @@ ASCEL_BIN := ${HOME}/dev/my/ascel/ascel.py
 .PHONY: download download-wangluoliuxingxinci download-kaifadashenzhuanyongciku
 
 download: 
-	cat $(dict) | ggrep -v -P "\t" | sponge $(dict)
+	cat $(dict) | $(GREP) -v -P "\t" | sponge $(dict)
 	wget 'https://pinyin.sogou.com/d/dict/download_cell.php?id=$(id)&name=$(name)' -O $(name).scel
 	python $(ASCEL_BIN) $(name).scel >> $(dict)
 	rm $(name).scel
