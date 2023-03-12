@@ -16,8 +16,8 @@ patch:
       Control_L: commit_code
       Control_R: noop # ignore on macOS
       Eisu_toggle: noop
-      Shift_L: noop
-      Shift_R: noop # ignore on macOS
+      Shift_L: commit_code
+      Shift_R: commit_code # ignore on macOS
   recognizer/patterns:
     email: "^[A-Za-z][-_.0-9A-Za-z]*@.*$"
     uppercase: "[A-Z][-_+.'0-9A-Za-z]*$"
