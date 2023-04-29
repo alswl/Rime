@@ -43,7 +43,7 @@ ASCEL_BIN := ${HOME}/dev/my/ascel/ascel.py
 download: 
 	cat $(dict) | $(GREP) -v -P "\t" | sponge $(dict)
 	wget 'https://pinyin.sogou.com/d/dict/download_cell.php?id=$(id)&name=$(name)' -O $(name).scel
-	python2 $(ASCEL_BIN) $(name).scel >> $(dict)
+	python3 $(ASCEL_BIN) $(name).scel >> $(dict)
 	rm $(name).scel
 	version=$(TODAY_DOT); sed -i -E "s/^version: \".+\"$$/version: \"$$version\"/g" $(dict)
 
