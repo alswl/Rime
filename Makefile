@@ -19,7 +19,13 @@ GREP := grep
 ifeq ($(shell uname),Darwin)
 GREP := ggrep
 endif
+# SED is sed, using sed in Linux, gsed in macOS
+SED := sed
+ifeq ($(shell uname),Darwin)
+SED := gsed
+endif
 NOW_SHORT := $(shell date +%Y%m%d%H%M)
+TODAY_DOT := $(shell date +%Y.%m.%d)
 
 # Git commit sha.
 COMMIT := $(strip $(shell git rev-parse --short HEAD 2>/dev/null))
@@ -45,7 +51,7 @@ download:
 	wget 'https://pinyin.sogou.com/d/dict/download_cell.php?id=$(id)&name=$(name)' -O $(name).scel
 	python3 $(ASCEL_BIN) $(name).scel >> $(dict)
 	rm $(name).scel
-	version=$(TODAY_DOT); sed -i -E "s/^version: \".+\"$$/version: \"$$version\"/g" $(dict)
+	version=$(TODAY_DOT); $(SED) -i -E "s/^version: \".+\"$$/version: \"$$version\"/g" $(dict)
 
 download-wangluoliuxingxinci: id = 4
 download-wangluoliuxingxinci: dict = luna_pinyin.wangluoliuxingxinci.dict.yaml
