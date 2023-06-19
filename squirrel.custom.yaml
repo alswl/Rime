@@ -26,6 +26,8 @@ patch:
       vim_mode: true
     com.jetbrains.datagrip:
       vim_mode: true
+    com.microsoft.edgemac.app.jndbnbljngolcchhjbajncidekccnlck:
+      no_inline: true
     #com.runningwithcrayons.Alfred-2:
       #ascii_mode: true
   style:
