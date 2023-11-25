@@ -13,11 +13,11 @@ patch:
     good_old_caps_lock: true
     switch_key:
       Caps_Lock: noop
-      Control_L: commit_code
-      Control_R: noop # ignore on macOS
+      Control_L: noop
+      Control_R: commit_code # caps lock mapping to control r
       Eisu_toggle: noop
-      Shift_L: commit_code
-      Shift_R: commit_code # ignore on macOS
+      Shift_L: noop
+      Shift_R: noop
   recognizer/patterns:
     email: "^[A-Za-z][-_.0-9A-Za-z]*@.*$"
     uppercase: "[A-Z][-_+.'0-9A-Za-z]*$"
