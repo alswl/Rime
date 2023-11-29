@@ -13,7 +13,7 @@ patch:
     good_old_caps_lock: true
     switch_key:
       Caps_Lock: noop
-      Control_L: noop
+      Control_L: commit_code # ergodox is using control l
       Control_R: commit_code # caps lock mapping to control r
       Eisu_toggle: noop
       Shift_L: noop
