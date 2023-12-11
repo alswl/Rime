@@ -27,6 +27,8 @@ patch:
       vim_mode: true
     com.jetbrains.datagrip:
       vim_mode: true
+    com.jetbrains.WebStorm:
+      vim_mode: true
     md.obsidian:
       vim_mode: true
     # AntDraw in Edge
