@@ -12,9 +12,8 @@
 #
 
 patch:
-  'speller/algebra':
-    - erase/^xx$/                      # 第一行保留
-
+  speller/algebra:
+    - erase/^xx$/ # 第一行保留
     # 模糊音定義
     # 需要哪組就刪去行首的 # 號，單雙向任選
     #- derive/^([zcs])h/$1/             # zh, ch, sh => z, c, s
@@ -90,37 +89,38 @@ patch:
     #- derive/ong$/on/                  # zhonguo => zhong guo
     #- derive/ao$/oa/                   # hoa => hao
     #- derive/([iu])a(o|ng?)$/a$1$2/    # tain => tian
-
   # 分尖團後 v => ü 的改寫條件也要相應地擴充：
   #'translator/preedit_format':
   #  - "xform/([nljqxyzcs])v/$1ü/"
-
   engine/filters:
     - simplifier
     - uniquifier
-    - charset_filter@gb2312+emoji  # https://github.com/rime/librime/pull/293
+    - charset_filter@gb2312+emoji # https://github.com/rime/librime/pull/293
   engine/translators/+:
     - table_translator@custom_phrase
   punctuator/half_shape:
-      "/" : "/"
-      "\\" : "、"
-      "[": "「"
-      "]": "」"
-      "|": "|"
-      "<": "<"
-      ">": ">"
-      "$": "￥"
-      "%": "%"
-      "*": "*"
-      "~": "~"
-      "_": "_"
-      "{": "『"
-      "}": "』"
-      "`": "`"
+    /: /
+    \: 、
+    '[': 「
+    ']': 」
+    '|': '|'
+    <: <
+    '>': '>'
+    $: ￥
+    '%': '%'
+    '*': '*'
+    "~": "~"
+    _: _
+    '{': 『
+    '}': 』
+    '`': '`'
   translator/dictionary: luna_pinyin.custom
   switches/+:
-    - options: [gb2312+emoji, gbk+emoji, utf8]  # https://github.com/rime/librime/pull/293
-      states:
+    - options:
+        - gb2312+emoji
+        - gbk+emoji
+        - utf8
+      states: # https://github.com/rime/librime/pull/293
         - GB2312E
         - GBKE
         - UTF-8
