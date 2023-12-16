@@ -1,32 +1,35 @@
 patch:
   schema/name: 双拼
-  recognizer/patterns/reverse_lookup: ""  # disable stroke
+  recognizer/patterns/reverse_lookup: "" # disable stroke
   engine/filters:
     - simplifier
     - uniquifier
-    - charset_filter@gb2312+emoji  # https://github.com/rime/librime/pull/293
+    - charset_filter@gb2312+emoji # https://github.com/rime/librime/pull/293
   engine/translators/+:
     - table_translator@custom_phrase
   punctuator/half_shape:
-      "/" : "/"
-      "\\" : "、"
-      "[": "「"
-      "]": "」"
-      "|": "|"
-      "<": "<"
-      ">": ">"
-      "$": "￥"
-      "%": "%"
-      "*": "*"
-      "~": "~"
-      "_": "_"
-      "{": "『"
-      "}": "』"
-      "`": "`"
+    /: /
+    \: 、
+    '[': 「
+    ']': 」
+    '|': '|'
+    <: <
+    '>': '>'
+    $: ￥
+    '%': '%'
+    '*': '*'
+    "~": "~"
+    _: _
+    '{': 『
+    '}': 』
+    '`': '`'
   translator/dictionary: luna_pinyin.custom
   switches/+:
-    - options: [gb2312+emoji, gbk+emoji, utf8]  # https://github.com/rime/librime/pull/293
-      states:
+    - options:
+        - gb2312+emoji
+        - gbk+emoji
+        - utf8
+      states: # https://github.com/rime/librime/pull/293
         - GB2312E
         - GBKE
         - UTF-8

@@ -51,53 +51,52 @@ patch:
     #color_scheme: starcraft
   preset_color_schemes:
     apathy:
-      author: "LIANG Hai "
+      author: 'LIANG Hai '
       back_color: 0xFFFFFF
       border_height: 1
       border_width: 1
-      candidate_format: "%c %@ "
+      candidate_format: '%c %@ '
       comment_text_color: 0x999999
       corner_radius: 4
-      font_face: "PingFangSC-Regular,PingFangTC-Regular"
+      font_face: PingFangSC-Regular,PingFangTC-Regular
       font_point: 14
       hilited_candidate_back_color: 0xFFF0E4
       hilited_candidate_text_color: 0xEE6E00
       horizontal: true
       inline_preedit: true
-      label_font_face: "PingFangSC-Light,HanaMinA"
+      label_font_face: PingFangSC-Light,HanaMinA
       label_font_point: 12
-      name: "冷漠 / Apathy"
+      name: 冷漠 / Apathy
       text_color: 0x424242
     homepage:
       author: alswl
       back_color: 0x444444
       border_height: 0
       border_width: 0
-      candidate_format: "%c %@ "
+      candidate_format: '%c %@ '
       comment_text_color: 0x999999
       corner_radius: 5
-      font_face: "PingFangSC-Medium,PingFangTC-Medium"
+      font_face: PingFangSC-Medium,PingFangTC-Medium
       font_point: 15
       hilited_candidate_back_color: 0xD3BC00
       hilited_candidate_text_color: 0xFFFFFF
       horizontal: true
       inline_preedit: true
       label_font_point: 14
-      name: "官网 / Homepage"
+      name: 官网 / Homepage
       text_color: 0xEEEEEE
     jike:
-      name: "即刻黄"
+      name: 即刻黄
       author: Ryekee
       back_color: 0x11E4FF
       border_height: 0
       border_width: 0
-      candidate_format: "%c  %@ "
+      candidate_format: '%c  %@ '
       comment_text_color: 0x000000
-      font_face: "PingFangSC-Medium,PingFangTC-Medium"
+      font_face: PingFangSC-Medium,PingFangTC-Medium
       hilited_candidate_back_color: 0xF4B95F
       hilited_candidate_text_color: 0xFFFFFF
       horizontal: true
       inline_preedit: true
       label_font_point: 14
       text_color: 0xFFFFFF
-
