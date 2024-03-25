@@ -39,6 +39,9 @@ patch:
     # AntDraw in Chrome
     com.google.Chrome.app.jndbnbljngolcchhjbajncidekccnlck:
       no_inline: true
+    # Obsidian
+    md.obsidian:
+      no_inline: true
   style:
     color_scheme: homepage
     # color_scheme: jike
