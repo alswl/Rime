@@ -63,7 +63,9 @@ patch:
       font_point: 14
       hilited_candidate_back_color: 0xFFF0E4
       hilited_candidate_text_color: 0xEE6E00
+      # legacy mode
       horizontal: true
+      candidate_list_layout: linear
       inline_preedit: true
       label_font_face: PingFangSC-Light,HanaMinA
       label_font_point: 12
@@ -81,7 +83,9 @@ patch:
       font_point: 15
       hilited_candidate_back_color: 0xD3BC00
       hilited_candidate_text_color: 0xFFFFFF
+      # legacy mode
       horizontal: true
+      candidate_list_layout: linear
       inline_preedit: true
       label_font_point: 14
       name: 官网 / Homepage
@@ -97,7 +101,9 @@ patch:
       font_face: PingFangSC-Medium,PingFangTC-Medium
       hilited_candidate_back_color: 0xF4B95F
       hilited_candidate_text_color: 0xFFFFFF
+      # legacy mode
       horizontal: true
+      candidate_list_layout: linear
       inline_preedit: true
       label_font_point: 14
       text_color: 0xFFFFFF
