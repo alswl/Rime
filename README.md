@@ -100,6 +100,8 @@ Poetry Snapshot:
     - include emoji 11.0, eg. 🧯 (mie huo qi) 🥽 (hu mu jing)
     - include emoji 12.0, eg. 🧎 (gui xia) 🪂 (tiao san)
     - include emoji 13.0, eg. 🥲 (yan lei) 🐻‍❄ (bei ji xiong)
+    - include emoji 14.0, eg. 🪫 (dian liang bu zu)
+    - include emoji 15.0, eg. 🪼 (shui mu)
   - `luna_pinyin.emoji.apple.dict.yaml`：Apple iOS 10 Emoji
   - `luna_pinyin.emoji.scomper.dict.yaml`：Scomper 维护 Emoji（包含 Unicode 9.0）
   - `luna_pinyin.kaomoji.dict.yaml`：搜狗颜文字
