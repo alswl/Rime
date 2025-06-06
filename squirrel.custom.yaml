@@ -13,6 +13,9 @@ patch:
     com.ident.goneovim:
       no_inline: true
       vim_mode: true
+    com.neovide.neovide:
+      no_inline: true
+      vim_mode: true
     com.googlecode.iterm2:
       no_inline: true
       vim_mode: false
