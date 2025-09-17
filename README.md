@@ -1,10 +1,11 @@
 # Rime
 
 My Rime configuration.
-
-Especially recommends `luna_pinyin.xiandaihanyuchangyongcibiao.dict.yaml`。
-
 特别推荐使用「现代汉语常用词表」，让你摆脱 Rime 自带词表规模过大查找不便 / 港台词汇过多的问题。
+
+本仓库正在重构中，正在拆成可以直接使用的词库，即
+[alswl/rime-selected](https://github.com/alswl/rime-selected)。
+
 
 ## Snapshot
 
