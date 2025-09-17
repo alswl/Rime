@@ -9,21 +9,20 @@ import_tables:
     #- luna_pinyin.hanyu
     - luna_pinyin.poetry
     #- luna_pinyin.cn_en
-    - luna_pinyin.xiandaihanyuchangyongcibiao
-    - luna_pinyin.chengyusuyu
-    - luna_pinyin.sijixingzhenquhuadimingciku
-    - luna_pinyin.jisuanjicihuidaquan
-    - luna_pinyin.wangluoliuxingxinci
-    - luna_pinyin.kaifadashenzhuanyongciku
-    - luna_pinyin.shanghaishichengshixinxijingxuan
-    - luna_pinyin.zhongguolishicihuidaquan
-    - luna_pinyin.shanghaihuadaquan
-    - luna_pinyin.mingxing
-    - luna_pinyin.emoji
-    - luna_pinyin.emoji.apple
-    - luna_pinyin.emoji.cldr
-    - luna_pinyin.emoji.unicode-cldr
-    - luna_pinyin.emoji.scomper
-    - luna_pinyin.kaomoji
+    - xiandaihanyuchangyongcibiao
+    - chengyusuyu
+    - sijixingzhenquhuadimingciku
+    - jisuanjicihuidaquan
+    - wangluoliuxingxinci
+    - kaifadashenzhuanyongciku
+    - shanghaishichengshixinxijingxuan
+    - zhongguolishicihuidaquan
+    - shanghaihuadaquan
+    - mingxing
+    - emoji.apple
+    - emoji.cldr
+    - emoji.unicode-cldr
+    - emoji.scomper
+    - kaomoji
 ...
 
