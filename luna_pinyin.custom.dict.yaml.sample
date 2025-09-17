@@ -6,23 +6,23 @@ use_preset_vocabulary: true
 import_tables:
     #- luna_pinyin.extended # include next 4 dict
     - luna_pinyin
-    #- luna_pinyin.hanyu
+    - luna_pinyin.hanyu
     - luna_pinyin.poetry
-    #- luna_pinyin.cn_en
-    - xiandaihanyuchangyongcibiao
-    - chengyusuyu
-    - sijixingzhenquhuadimingciku
-    - jisuanjicihuidaquan
-    - wangluoliuxingxinci
-    - kaifadashenzhuanyongciku
-    - shanghaishichengshixinxijingxuan
-    - zhongguolishicihuidaquan
-    - shanghaihuadaquan
-    - mingxing
-    - emoji.apple
-    - emoji.cldr
-    - emoji.unicode-cldr
-    - emoji.scomper
-    - kaomoji
+    - luna_pinyin.cn_en
+    - selected.xiandaihanyuchangyongcibiao
+    - selected.chengyusuyu
+    - selected.sijixingzhenquhuadimingciku
+    - selected.jisuanjicihuidaquan
+    - selected.wangluoliuxingxinci
+    - selected.kaifadashenzhuanyongciku
+    - selected.shanghaishichengshixinxijingxuan
+    - selected.zhongguolishicihuidaquan
+    - selected.shanghaihuadaquan
+    - selected.mingxing
+    - selected.emoji.apple
+    - selected.emoji.cldr
+    - selected.emoji.unicode-cldr
+    - selected.emoji.scomper
+    - selected.kaomoji
 ...
 
