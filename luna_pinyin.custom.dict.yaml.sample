@@ -4,10 +4,7 @@ version: "2022.05.17"
 sort: by_weight
 use_preset_vocabulary: true
 import_tables:
-    #- luna_pinyin.extended # include next 4 dict
     - luna_pinyin
-    - luna_pinyin.hanyu
-    - luna_pinyin.poetry
     - luna_pinyin.cn_en
     - selected.xiandaihanyuchangyongcibiao
     - selected.chengyusuyu
