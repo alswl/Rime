@@ -4,7 +4,6 @@ patch:
   engine/filters:
     - simplifier
     - uniquifier
-    - charset_filter@gb2312+emoji # https://github.com/rime/librime/pull/293
   engine/translators/+:
     - table_translator@custom_phrase
   punctuator/half_shape:
@@ -23,17 +22,12 @@ patch:
     '{': 『
     '}': 』
     '`': '`'
-  translator/dictionary: luna_pinyin.custom
+  translator:
+    dictionary: luna_pinyin.custom
+    enable_charset_filter: true
   switches/+:
-    - options:
-        - gb2312+emoji
-        - gbk+emoji
-        - utf8
-      states: # https://github.com/rime/librime/pull/293
-        - GB2312E
-        - GBKE
-        - UTF-8
-      reset: 1
+    - name: extended_charset
+      states: [ 常用, 增廣 ]
   custom_phrase:
     db_class: stabledb
     dictionary: ""
